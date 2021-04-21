@@ -1,6 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap');
+
+
+
+:root {
+    --color-primary: #F0EADA;
+    --color-secondary: #2a2a2a;
+    --color-third: #16639F;
+    --color-border: #BDBDBD;
+    --color-white: #F9F9F9;
+    --color-dark-blue: #222935;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 100;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--color-primary);
+
+}
+
+.background-pattern {
+    background-image: url(https://res.cloudinary.com/raahandel/image/upload/v1589048073/assets/backgroundPatternBig.svg);
+    background-repeat: repeat;
+    background-size: 40%;
+    position: fixed;
+    top: 0px;
+    opacity: 0.06;
+    width: 100%;
+    height: 500%;
+    z-index: 1;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: 3.7rem;
+    width: 100vw;
+    background-color: var(--color-primary);
+    z-index: 100;
+}
+
+/* HERO */
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: calc(100% + 5rem);
+    height: 26.5rem;
+    top: 3.7rem;
+    left: -5rem;
+    background-image: url(https://res.cloudinary.com/raahandel/image/upload/v1617268139/splash/npykcgadi4qnyywnferd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.hero-logo {
+    width: 11rem;
+}
+
+.hero-logo__text {
+    margin-top: 2rem;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.3rem;
 }
