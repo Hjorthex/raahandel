@@ -426,6 +426,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
     width: 100vw;
     background-color: var(--color-dark-blue);
 }
