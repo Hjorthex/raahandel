@@ -97,7 +97,7 @@ body {
     width: 100vw;
     background-color: var(--color-primary);
     border: 1px solid var(--color-border);
-    z-index: 10;
+    z-index: 110;
 }
 
 .header-customer__topnav {
@@ -202,7 +202,7 @@ body {
     background-color: var(--color-white);
     border: 1px solid var(--color-border);
     transition: all 0.3s ease 0s;
-    z-index: 10;
+    z-index: 110;
 }
 
 .show-delivery {
@@ -286,6 +286,7 @@ body {
 .date {
     color: var(--color-border);
     padding: 0.4rem;
+    cursor: pointer;
 }
 
 .delivery-date {
@@ -298,6 +299,7 @@ body {
     padding: 0.4rem;
     background-color: var(--color-third);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .monday {
