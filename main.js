@@ -10,6 +10,10 @@
 $("#deliveryday").click(function(){
     $(".delivery-container").toggleClass("show-delivery");
   });
+  
+$("#deliveryday").click(function(){
+   $("#deliveryday").toggleClass("current-page-link");
+ });
 
   $("#delivery-date1").click(function(){
     $("#delivery-date1").toggleClass("selected-date");
