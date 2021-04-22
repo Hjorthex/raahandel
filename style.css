@@ -87,6 +87,8 @@ body {
 
 /* HEADER CUSTOMER*/
 
+
+
 .header-customer {
     position: fixed;
     height: 5.35rem;
@@ -95,6 +97,7 @@ body {
     width: 100vw;
     background-color: var(--color-primary);
     border: 1px solid var(--color-border);
+    z-index: 10;
 }
 
 .header-customer__topnav {
@@ -139,9 +142,18 @@ body {
     justify-content: space-between;
 }
 
+.header-customer-logolink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.8rem;
+}
+
 .header-customer__logo {
-    width: 8rem;
-    margin-left: 2rem;
+    align-self: center;
+    width: 100%;
+    margin: 2rem;
+    width: 9rem;
 }
 
 .header-customer__list {
@@ -159,12 +171,373 @@ body {
     font-size: 0.7rem;
     margin: 0 0.3rem;
     letter-spacing: 0.03em;
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem 1rem 1.05rem 1rem;
 }
+
+.header-customer__link, #deliveryday {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .current-page-link > a, .header-customer__link > a:hover {
     color: var(--color-third);
     border-bottom: 3px solid var(--color-third);
 }
+
+/* LEVERINGSDAG SEKTION ------------------------------------------------------------- */
+
+.delivery-container {
+    padding: 1.3rem;
+    width: 19rem;
+    height: calc(100vh - 5.35rem);
+    position: fixed;
+    display: block;
+    right: -19rem;
+    top: 5.35rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+
+.show-delivery {
+    right: 0rem;
+    transition: all 0.3s ease 0s;
+}
+
+.delivery-heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.delivery-heading-border {
+    margin-top: 0.5rem;
+    height: 2px;
+    width: 5rem;
+    background-color: var(--color-secondary);
+}
+
+.calender-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+}
+
+.calender-month {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.arrows {
+    display: flex;
+    width: 2.1rem;
+    justify-content: space-between;
+}
+
+.delivery-next-month {
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 9px solid rgb(139, 152, 152);
+}
+
+.delivery-prev-month {
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 9px solid rgb(139, 152, 152);
+}
+
+.calender-days {
+    column-gap: 0.3rem;
+    row-gap: 0.3rem;
+    margin-top: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "mon tue wed thur fri sat sun"
+    ". . . date1 date2 date3 date4"
+    "date5 date6 date7 date8 date9 date10 date11"
+    "date12 date13 date14 date15 date16 date17 date18"
+    "date19 date20 date21 date22 date23 date24 date25"
+    "date26 date27 date28 date29 date30 . .";
+}
+
+.calender-days > p {
+    font-size: 0.9rem;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.calender-weekdays {
+    color: rgb(139, 152, 152);
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+.date {
+    color: var(--color-border);
+    padding: 0.4rem;
+}
+
+.delivery-date {
+    color: var(--color-secondary);
+    font-weight: 500;
+}
+
+.selected-date {
+    color: white;
+    padding: 0.4rem;
+    background-color: var(--color-third);
+    border-radius: 50%;
+}
+
+.monday {
+    grid-area: mon;
+}
+.tuesday {
+    grid-area: tue;
+}
+.wednesday {
+    grid-area: wed;
+}
+.thursday {
+    grid-area: thur;
+}
+.friday {
+    grid-area: fri;
+}
+.saturday {
+    grid-area: sat;
+}
+.sunday {
+    grid-area: sun;
+}
+.date1 {
+    grid-area: date1;
+}
+.date2 {
+    grid-area: date2;
+}
+.date3 {
+    grid-area: date3;
+}
+.date4 {
+    grid-area: date4;
+}
+.date5 {
+    grid-area: date5;
+}
+.date6 {
+    grid-area: date6;
+}
+.date7 {
+    grid-area: date7;
+}
+.date8 {
+    grid-area: date8;
+}
+.date9 {
+    grid-area: date9;
+}
+.date10 {
+    grid-area: date10;
+}
+.date11 {
+    grid-area: date11;
+}
+.date12 {
+    grid-area: date12;
+}
+.date13 {
+    grid-area: date13;
+}
+.date14 {
+    grid-area: date14;
+}
+.date15 {
+    grid-area: date15;
+}
+.date16 {
+    grid-area: date16;
+}
+.date17 {
+    grid-area: date17;
+}
+.date18 {
+    grid-area: date18;
+}
+.date19 {
+    grid-area: date19;
+}
+.date20 {
+    grid-area: date20;
+}
+.date21 {
+    grid-area: date21;
+}
+.date22 {
+    grid-area: date22;
+}
+.date23 {
+    grid-area: date23;
+}
+.date24 {
+    grid-area: date24;
+}
+.date25 {
+    grid-area: date25;
+}
+.date26 {
+    grid-area: date26;
+}
+.date27 {
+    grid-area: date27;
+}
+.date28 {
+    grid-area: date28;
+}
+.date29 {
+    grid-area: date29;
+}
+.date30 {
+    grid-area: date30;
+}
+
+/* FOOTER -------------------------------------------------------------------------*/
+
+.temporary {
+    margin-top: 5.35rem;
+    height: calc(100vh - 5.35rem);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--color-dark-blue);
+}
+
+.footer-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem auto 3rem auto;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-white)
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+}
+
+.footer-column__img {
+    width: 2.5rem;
+    margin: 0 2rem 0 0;
+}
+
+.footer-column__heading {
+    color: var(--color-white);
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.footer-column__caption {
+    color: var(--color-white);
+}
+.footer-column__link {
+    color: var(--color-white);
+    font-weight: 700;
+    margin: 0.4rem 0 0.5rem 0;
+}
+
+.footer-bottom-container {
+    margin-bottom: 5rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 7rem;
+}
+
+.footer-list {
+    color: var(--color-white);
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.footer-list__link {
+    margin-bottom: 0.4rem;
+}
+
+.footer-bottom__heading {
+    color: var(--color-white);
+}
+
+.footer-heading__border {
+    margin: 0.3rem 0 1rem 0;
+    height: 2px;
+    width: 2.8rem;
+    background-color: var(--color-white);
+}
+
+.footer-bottom__caption {
+    color: var(--color-white);
+}
+
+.footer-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-trademark {
+    margin-top: 3rem;
+    color: var(--color-white);
+}
+
+
+.footer-contact__link {
+    width: 11rem;
+    margin-bottom: 1rem;
+    float: right;
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer-contact__link > a {
+    text-align: left;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.footer-reports {
+    color: var(--color-white);
+    text-align: right;
+    margin-bottom: 5rem;
+}
+
+
+
 
 /* HEADER MANUFACTURER */
 
