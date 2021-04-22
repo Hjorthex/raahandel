@@ -114,7 +114,7 @@ body {
 
 .header-customer__toplink > a {
     color: var(--color-secondary);
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin: 0 1rem;
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -130,6 +130,40 @@ body {
 
 .toplink--uppercase {
     text-transform: uppercase;
+}
+
+.header-customer__navigation {
+    width: 100%;
+    display: flex;
+    height: 3.8rem;
+    justify-content: space-between;
+}
+
+.header-customer__logo {
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.header-customer__list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 0.6rem;
+}
+
+.header-customer__link > a {
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+    letter-spacing: 0.03em;
+    padding: 0 1rem 1rem 1rem;
+}
+.current-page-link > a, .header-customer__link > a:hover {
+    color: var(--color-third);
+    border-bottom: 3px solid var(--color-third);
 }
 
 /* HEADER MANUFACTURER */
