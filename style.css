@@ -97,6 +97,7 @@ body {
     width: 100vw;
     background-color: var(--color-primary);
     border: 1px solid var(--color-border);
+    z-index: 10;
 }
 
 .header-customer__topnav {
@@ -170,7 +171,7 @@ body {
     font-size: 0.7rem;
     margin: 0 0.3rem;
     letter-spacing: 0.03em;
-    padding: 1rem;
+    padding: 1rem 1rem 1.05rem 1rem;
 }
 
 .header-customer__link, #deliveryday {
@@ -188,6 +189,8 @@ body {
     border-bottom: 3px solid var(--color-third);
 }
 
+/* LEVERINGSDAG SEKTION ------------------------------------------------------------- */
+
 .delivery-container {
     padding: 1.3rem;
     width: 19rem;
@@ -199,6 +202,7 @@ body {
     background-color: var(--color-white);
     border: 1px solid var(--color-border);
     transition: all 0.3s ease 0s;
+    z-index: 10;
 }
 
 .show-delivery {
@@ -407,6 +411,132 @@ body {
 .date30 {
     grid-area: date30;
 }
+
+/* FOOTER -------------------------------------------------------------------------*/
+
+.temporary {
+    margin-top: 5.35rem;
+    height: calc(100vh - 5.35rem);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--color-dark-blue);
+}
+
+.footer-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem auto 3rem auto;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-white)
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+}
+
+.footer-column__img {
+    width: 2.5rem;
+    margin: 0 2rem 0 0;
+}
+
+.footer-column__heading {
+    color: var(--color-white);
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.footer-column__caption {
+    color: var(--color-white);
+}
+.footer-column__link {
+    color: var(--color-white);
+    font-weight: 700;
+    margin: 0.4rem 0 0.5rem 0;
+}
+
+.footer-bottom-container {
+    margin-bottom: 5rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 7rem;
+}
+
+.footer-list {
+    color: var(--color-white);
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.footer-list__link {
+    margin-bottom: 0.4rem;
+}
+
+.footer-bottom__heading {
+    color: var(--color-white);
+}
+
+.footer-heading__border {
+    margin: 0.3rem 0 1rem 0;
+    height: 2px;
+    width: 2.8rem;
+    background-color: var(--color-white);
+}
+
+.footer-bottom__caption {
+    color: var(--color-white);
+}
+
+.footer-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-trademark {
+    margin-top: 3rem;
+    color: var(--color-white);
+}
+
+
+.footer-contact__link {
+    width: 11rem;
+    margin-bottom: 1rem;
+    float: right;
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer-contact__link > a {
+    text-align: left;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.footer-reports {
+    color: var(--color-white);
+    text-align: right;
+    margin-bottom: 5rem;
+}
+
+
 
 
 /* HEADER MANUFACTURER */
