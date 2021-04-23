@@ -415,16 +415,121 @@ body {
 }
 /* BASKET DROP DOWN ---------------------------------------------------------------*/
 
+
+#add-to-cart__btn {
+    margin-top: 10rem;
+    margin-left: 50vw;
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+    z-index: 10;
+    position: absolute;
+}
+
 .basket-dropdown {
+    display: none;
+    flex-direction: column;
     top: 5.35rem;
     right: 0;
     position: fixed;
     background-color: var(--color-primary);
-    width: 20rem;
-    height: 20rem;
-    z-index: 109;
+    width: 25rem;
+    z-index: 111;
     border: 1px solid var(--color-border);
     border-top: none;
+    padding: 1.3rem;
+}
+
+.show-basket-dropdown {
+    display: flex;
+}
+
+.basket-dropdown__heading {
+    color: var(--color-secondary);
+}
+.basket-dropdown__heading-border {
+    background-color: var(--color-secondary);
+    height: 2px;
+    width: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.basket-dropdown__product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    height: 5rem;
+    font-size: 0.8rem;
+}
+
+.add-product {
+    display: none;
+}
+
+.show-added-product {
+    display: flex;
+}
+
+.basket-dropdown-product__image {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+    background-size: 100%;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.3rem;
+}
+
+.basket-dropdown-product__colli {
+    color: var(--color-third);
+}
+
+.basket-dropdown-product__numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.basket-dropdown-product__amount {
+    display: flex;
+    float: right;
+    align-self: flex-end;
+}
+
+.basket-dropdown__total {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    padding: 0.4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+    font-size: 0.8rem;
+
+}
+
+.basket-dropdown-total__delivery, .basket-dropdown-total__price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.basket-dropdown-total-delivery__text, .basket-dropdown-total-price__text, .basket-dropdown-product__name {
+    color: var(--color-third);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.basket-dropdown-total-delivery__price, .basket-dropdown-total-price__price {
+    font-weight: 600;
+}
+
+.basket-dropdown__link {
+    color: var(--color-white);
+    background-color: var(--color-third);
+    padding: 0.6em 2em;
+    margin: 1.5rem auto 0.4rem auto;
+    font-weight: 600;
 }
 
 
