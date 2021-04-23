@@ -33,4 +33,13 @@ $("#deliveryday").click(function(){
   $("#add-to-cart__btn").click(function(){
     $(".add-product").addClass("show-added-product");
   });
-  
+
+// Products Campaign Carousel
+
+$(".products-campaigns__move-right").click(function(){
+  $("#carousel-container-slider").addClass("carousel-container-slider__slide-left");
+});
+
+$(".products-campaigns__move-left").click(function(){
+  $("#carousel-container-slider").removeClass("carousel-container-slider__slide-left");
+});
