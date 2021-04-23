@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Råhandel | Produkt</title>
 </head>
 <body>
@@ -13,19 +13,76 @@
             <ul class="header-customer__toplist">
                 <li class="header-customer__toplink toplink--capitalize"><a href="">Hej Sona</a></li>
                 <li class="header-customer__toplink toplink--uppercase"><a href="">Konto</a></li>
-                <li class="header-customer__toplink toplink--uppercase"><a href="">Log ud</a></li>
+                <li class="header-customer__toplink toplink--uppercase"><a href="../index.html">Log ud</a></li>
             </ul>
         </nav>
         <nav class="header-customer__navigation">
-            <a class="header-customer-logolink" href="products.html"><img class="header-customer__logo" src="./images/logoBlackHorizontal_h6pnu5.svg" alt="logo"></a>
+            <a class="header-customer-logolink" href="../products.html"><img class="header-customer__logo" src="../images/logoBlackHorizontal_h6pnu5.svg" alt="logo"></a>
             <ul class="header-customer__list">
-                <li class="header-customer__link current-page-link"><a href="products.html">varer</a></li>
-                <li class="header-customer__link"><a href="manufacturers.html">producenter</a></li>
+                <li class="header-customer__link current-page-link"><a href="../products.html">varer</a></li>
+                <li class="header-customer__link"><a href="../manufacturers.html">producenter</a></li>
                 <li class="header-customer__link"><a  id="deliveryday">leveringsdag</a></li>
-                <li class="header-customer__link"><a href="basket.html">kurv</a></li>
+                <li onmouseover="basketAppear()"  class="header-customer__link"><a id="show-basket-dropdown" href="../basket.html">kurv</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="basket-dropdown">
+        <h2 class="basket-dropdown__heading">Kurv</h2>
+        <div class="basket-dropdown__heading-border"></div>
+        <div class="basket-dropdown__product">
+            <div class="basket-dropdown-product__image"></div>
+            <div class="basket-dropdown-product__info">
+                <div class="basket-dropdown-product__details">
+                    <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
+                    <p class="basket-dropdown-product__colli">8 x 500 l / 14,5 %</p>
+                </div>
+            </div>
+            <div class="basket-dropdown-product__numbers">
+                <div class="basket-dropdown-product__amount">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+                <div class="basket-dropdown-product__price">
+                    <p>680,00kr</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="basket-dropdown__product add-product">
+            <div class="basket-dropdown-product__image"></div>
+            <div class="basket-dropdown-product__info">
+                <div class="basket-dropdown-product__details">
+                    <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
+                    <p class="basket-dropdown-product__colli">8 x 500 l / 14,5 %</p>
+                </div>
+            </div>
+            <div class="basket-dropdown-product__numbers">
+                <div class="basket-dropdown-product__amount">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+                <div class="basket-dropdown-product__price">
+                    <p>680,00kr</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="basket-dropdown__total">
+            <div class="basket-dropdown-total__delivery">
+                <p class="basket-dropdown-total-delivery__text">Levering</p>
+                <p class="basket-dropdown-total-delivery__price">100,00 kr</p>
+            </div>
+            <div class="basket-dropdown-total__price">
+                <p class="basket-dropdown-total-price__text">Total inkl. moms</p>
+                <p class="basket-dropdown-total-price__price">1360,00 kr</p>
+            </div>
+        </div>
+        <a class="basket-dropdown__link" href="../basket.html">Gå til kurv</a>
+    </div>
+
     <aside class="delivery-container">
         <div>
             <div>
@@ -80,7 +137,6 @@
                 <p class="date date28">28</p>
                 <p id="delivery-date2" class="date delivery-date date29">29</p>
                 <p class="date date30">30</p>
-
             </div>
         </div>
     </aside>
@@ -88,26 +144,28 @@
     
     
     
-    <section class="temporary"></section>
+    <section class="temporary">
+        <button onclick="basketAppear()" id="add-to-cart__btn">Tilføj til kurv</button>
+    </section>
     
     
     
     <footer>
         <div class="footer-container">
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
             </div>
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
             </div>
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
@@ -115,7 +173,7 @@
         </div>
         <div class="footer-bottom-container">
             <div class="footer-column">
-                <img class="footer-logo" src="./images/logoBlackHorizontal_h6pnu5@2x.png" alt="logo">
+                <img class="footer-logo" src="../images/logoBlackHorizontal_h6pnu5@2x.png" alt="logo">
             </div>
             <div class="footer-column">
                 <ul class="footer-list">
@@ -151,10 +209,9 @@
                 </p>  
             </div>
         </div>
-        
     </footer>
 
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="../main.js"></script>
 </body>
 </html>
