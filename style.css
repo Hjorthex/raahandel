@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
-
 :root {
     --color-primary: #F0EADA;
     --color-secondary: #2a2a2a;
@@ -944,6 +943,16 @@ input:checked + .products-aside-filter__slider:before {
     height: 40rem;
 }
 
+.carousel-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.5rem 0 0.5rem;
+    width: 73.3vw;
+    height: 33rem;
+    overflow-x: hidden;
+    margin-top: 2rem;
+}
+
 .products-campaigns__carousel {
     width: 100%;
     height: 30rem;
@@ -969,7 +978,7 @@ input:checked + .products-aside-filter__slider:before {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2rem;
+    transition: all 1s ease-in-out;
 }
 
 .products-campaigns__move-left, .products-campaigns__move-right {
@@ -979,6 +988,11 @@ input:checked + .products-aside-filter__slider:before {
     display: flex;
     cursor: pointer;
     background-color: transparent;
+}
+
+.carousel-container-slider__slide-left {
+    margin-left: -88rem;
+    transition: all 1s ease-in-out;
 }
 
 .products-campaigns__arrow-left, .products-campaigns__arrow-right {
@@ -1041,6 +1055,8 @@ input:checked + .products-aside-filter__slider:before {
     background-color: var(--color-secondary);
 }
 
+
+
 .products-campaign__example {
     display: flex;
     flex-direction: column;
@@ -1052,15 +1068,48 @@ input:checked + .products-aside-filter__slider:before {
     outline: 2px solid var(--color-border)
 }
 
-.products-campaign__prod1-img {
-    display:;
+.products-campaign__prod1-img-container {
+    width: 20rem;
+    height: 20rem;
+    background-size: 100%;
+}
+
+.products-campaign__prod1-img-1 {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+}
+
+.products-campaign__prod1-img-2 {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
+}
+
+.products-campaign__prod1-img-3 {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
+}
+
+.products-campaign__prod1-img-4 {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
+}
+
+.products-campaign__prod1-img-5 {
+    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+}
+
+.products-campaign__prod1-img-6 {
+    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
+}
+
+.products-campaign__prod1-img-7 {
+    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
+}
+
+.products-campaign__prod1-img-8 {
+    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
 }
 
 .products-campaign__sale {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     font-size: 0.9rem;
     margin-left: 12rem;
     z-index: 101;
@@ -1108,6 +1157,11 @@ input:checked + .products-aside-filter__slider:before {
     width: 3rem;
     height: 100%;
     background-color: var(--color-third);
+    background-image: url(./images/icons/bv4bf3kxkg7abrm5irtr.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 }
 
 /* PRODUCTS ITEMS */
