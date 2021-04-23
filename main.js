@@ -1,10 +1,8 @@
 // Insert JavaScript here
 function basketAppear() {
     var element = document.querySelector ('.basket-dropdown')
-    if (element.style.display === "flex") {
-        element.style.display = "none"
-    }
-    else (element.style.display = "flex")
+    element.style.display === "none"
+    element.style.display = "flex"
 }
 
 jQuery(document).mouseup(function(e) {

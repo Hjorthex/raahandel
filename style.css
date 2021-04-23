@@ -24,18 +24,10 @@ body {
     width: 100vw;
     background-color: var(--color-primary);
     overflow-x: hidden;
-}
-
-.background-pattern {
-    background-image: url(./images/backgroundPatternBig_zsspyc.svg);
+    background-image: url(./images/backgroundPatternBig_zsspyc-opacity.svg);
     background-repeat: repeat;
+    background-attachment: fixed;
     background-size: 40%;
-    position: fixed;
-    top: 0px;
-    opacity: 0.06;
-    width: 100%;
-    height: 500%;
-    z-index: 1;
 }
 
 /* HEADER LOGIN */
@@ -201,6 +193,7 @@ body {
     top: 5.35rem;
     background-color: var(--color-white);
     border: 1px solid var(--color-border);
+    border-top: none;
     transition: all 0.3s ease 0s;
     z-index: 110;
 }
@@ -422,8 +415,7 @@ body {
     width: 15rem;
     height: 5rem;
     font-size: 2rem;
-    z-index: 10;
-    position: absolute;
+
 }
 
 .basket-dropdown {
