@@ -928,10 +928,11 @@ input:checked + .products-aside-filter__slider:before {
 /* PRODUCTS CAMPAIGNS */
 
 .products-campaigns {
+    display: flex;
     margin-top: 5.35rem;
     margin-left: 14.5rem;
     width: calc(100vw - 14.5rem);
-    height: 40rem;
+    height: 36rem;
 }
 
 .products-campaigns__container {
@@ -944,7 +945,7 @@ input:checked + .products-aside-filter__slider:before {
 
 .products-campaigns__carousel {
     width: 100%;
-    height: 25rem;
+    height: 30rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1047,14 +1048,25 @@ input:checked + .products-aside-filter__slider:before {
     width: 20rem;
     background-color: var(--color-white);
     margin: 1rem;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: var(--color-border);
+    outline: 2px solid var(--color-border)
 }
 
 .products-campaign__prod1-img {
-    object-position: center;
-    width: ;
+    display:;
+}
+
+.products-campaign__sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 0.9rem;
+    margin-left: 12rem;
+    z-index: 101;
+    width: 8rem;
+    height: 2.3rem;
+    background-color: var(--color-third);
+    color: var(--color-white);
 }
 
 .prod__info-container {
@@ -1071,7 +1083,7 @@ input:checked + .products-aside-filter__slider:before {
 
 .prod1__company-name {
     font-size: 1rem;
-    color: var(--color-dark-blue);
+    color: var(--color-third);
 }
 
 .prod1__product-name {
@@ -1179,7 +1191,7 @@ input:checked + .products-aside-filter__slider:before {
 .products-other-items {
     margin-left: 14.5rem;
     width: calc(100vw - 14.5rem);
-    height: 35rem;
+    height: 40rem;
 }
 
 .products-other-items__container {
