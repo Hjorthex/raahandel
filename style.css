@@ -794,6 +794,7 @@ footer {
     border-style: solid;
     border-color: var(--color-border);
     border-width: 0.1rem;
+    border-top-left-radius: none;
 }
 
 .products-aside__container {
