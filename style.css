@@ -409,14 +409,6 @@ body {
 /* BASKET DROP DOWN ---------------------------------------------------------------*/
 
 
-#add-to-cart__btn {
-    margin-top: 10rem;
-    margin-left: 50vw;
-    width: 15rem;
-    height: 5rem;
-    font-size: 2rem;
-
-}
 
 .basket-dropdown {
     display: none;
@@ -485,6 +477,22 @@ body {
     display: flex;
     float: right;
     align-self: flex-end;
+}
+
+.basket-dropdown-product__number {
+    margin: 0.05rem 0.25rem 0 0.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.basket-dropdown-product__minus, .basket-dropdown-product__plus {
+    color: var(--color-third);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.basket-dropdown-product__plus {
+    margin-top: 0.05rem;
 }
 
 .basket-dropdown__total {
