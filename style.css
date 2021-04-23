@@ -413,6 +413,20 @@ body {
 .date30 {
     grid-area: date30;
 }
+/* BASKET DROP DOWN ---------------------------------------------------------------*/
+
+.basket-dropdown {
+    top: 5.35rem;
+    right: 0;
+    position: fixed;
+    background-color: var(--color-primary);
+    width: 20rem;
+    height: 20rem;
+    z-index: 109;
+    border: 1px solid var(--color-border);
+    border-top: none;
+}
+
 
 /* FOOTER -------------------------------------------------------------------------*/
 
