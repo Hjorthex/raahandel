@@ -35,7 +35,7 @@
             <div class="basket-dropdown-product__info">
                 <div class="basket-dropdown-product__details">
                     <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
-                    <p class="basket-dropdown-product__colli">8 x 500 l / 14,5 %</p>
+                    <p class="basket-dropdown-product__colli">8 x 500 ml / 14,5 %</p>
                 </div>
             </div>
             <div class="basket-dropdown-product__numbers">
@@ -55,7 +55,7 @@
             <div class="basket-dropdown-product__info">
                 <div class="basket-dropdown-product__details">
                     <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
-                    <p class="basket-dropdown-product__colli">8 x 500 l / 14,5 %</p>
+                    <p class="basket-dropdown-product__colli">8 x 500 ml / 14,5 %</p>
                 </div>
             </div>
             <div class="basket-dropdown-product__numbers">
@@ -144,8 +144,23 @@
     <aside class="products-aside">
         <div class="products-aside__container">
             <div class="products-aside-icon-explain__container">
-                <img class="products-aside-icon-explain__info-logo" src="./images/evcmrmhhwswbpl21vppq.svg" alt="icon explainer logo">
-                <p class="products-aside-icon-explain__text">Ikonforklaring</p>
+                <img onclick="iconExplainOpen()" class="products-aside-icon-explain__info-logo" src="./images/evcmrmhhwswbpl21vppq.svg" alt="icon explainer logo">
+                <p onclick="iconExplainOpen()" class="products-aside-icon-explain__text">Ikonforklaring</p>
+                <div class="products-aside-icon-explain__close" onclick="iconExplainClose()"></div>
+            </div>
+            <div class="icon-explain__container">
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/organic_oua6f1.svg" alt="økologisk ikon">
+                    <p class="icon-explain__icons-text">Økologisk</p>
+                </div>
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/cold_bdv334.svg" alt="kølevare ikon">
+                    <p class="icon-explain__icons-text">Kølevare</p>
+                </div>
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/frozen_irz2za.svg" alt="Frostvarer">
+                    <p class="icon-explain__icons-text">Frostvare</p>
+                </div>
             </div>
             <div class="products-aside-categories__container">
                 <h2 class="products-aside-categories__caption">Kategorier</h2>
@@ -198,7 +213,7 @@
                         <div class="prod__info-container">
                             <h2 class="prod1__company-name">Michaels Mølle</h2>
                             <h3 class="prod1__product-name">Snoremark Æblemjød, Hyben</h3>
-                            <p class="prod1__product-info">8 x 500l / 14,5% / Dessertvin</p>
+                            <p class="prod1__product-info">8 x 500 ml / 14,5% / Dessertvin</p>
                             <div class="prod1-price__container">
                                 <div class="prod1-price">
                                     <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
