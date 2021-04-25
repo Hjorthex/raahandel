@@ -1222,3 +1222,205 @@ input:checked + .products-aside-filter__slider:before {
     margin-left: 7rem;
     margin-top: 5rem;
 }
+
+
+
+
+/* SINGLE PRODUCT PAGE ---------------------------------------------------------------------------------------------- */
+
+.page-wrapper {
+    margin-top: 5.35rem;
+    width: 70rem;
+    margin: 5.35rem auto 0 auto;
+}
+
+.page-breadcrumb {
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.page-breadcrumb p, .page-breadcrumb a {
+    margin-right: 1rem;
+}
+
+.page-breadcrumb a {
+    color: var(--color-secondary);
+}
+
+.page-breadcrumb__current {
+    font-weight: 800;
+    color: var(--color-third);
+}
+
+.single-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "image info info"
+    ". info info";
+    width: 100%;
+}
+
+.single-product__img {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 8rem;
+    grid-area: image;
+    width: 90%;
+    background-color: blue;
+}
+
+.single-product__container {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1.5rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+}
+
+.single-product__manufacturer {
+    color: var(--color-third);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.single-product__name {
+    color: var(--color-secondary);
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.single-product__contents {
+    color: var(--color-secondary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.single-product__delivery {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.single-product-delivery__days {
+}
+
+.single-product-delivery-days__caption, .single-product-delivery-deadline__caption {
+    color: var(--color-secondary);
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+}
+
+.single-product-delivery-days__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delivery-days {
+    border: 2px solid var(--color-border);
+    width: 3.2rem;
+    text-align: center;
+    height: 4.5rem;
+    padding-top: 2.4rem;
+    padding-bottom: 0.4rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.delivery-days__current {
+    border: 3px solid var(--color-third);
+    color: var(--color-third);
+    font-weight: 800;
+    background-image: /* INSERT CHECK MARK */;
+}
+
+.single-product-delivery-deadline {
+    color: var(--color-third);
+}
+
+.delivery-deadline__countdown {
+    color: var(--color-third);
+    font-weight: 600;
+}
+
+.delivery-deadline__text {
+    color: var(--color-third);
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.delivery-deadline__date {
+    color: var(--color-third);
+    font-weight: 600;
+}
+
+.single-product-delivery-deadline__container {
+    border: 2px solid var(--color-border);
+    width: 26rem;
+    height: 4.5rem;
+    padding: 0.3rem;
+}
+
+.single-product__buy {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.single-product-buy-price__colli {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.single-product-buy-price__unit  {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.single-product-buy__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1rem;
+}
+
+.single-product-buy__add-to-cart {
+    background-color: var(--color-third);
+    color: var(--color-white);
+    font-size: 1rem;
+    padding: 0.4em 1em 0.4em 1em;
+    font-weight: 600;
+}
+
+.single-product-description__heading {
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.single-product-description__underline {
+    height: 3px;
+    width: 7.5rem;
+    background-color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.single-product-description__second-heading {
+    color: var(--color-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.single-product-description__text {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
