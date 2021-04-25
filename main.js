@@ -33,4 +33,33 @@ $("#deliveryday").click(function(){
   $("#add-to-cart__btn").click(function(){
     $(".add-product").addClass("show-added-product");
   });
-  
+
+// Products Campaign Carousel
+
+$(".products-campaigns__move-right").click(function(){
+  $("#carousel-container-slider").addClass("carousel-container-slider__slide-left");
+});
+
+$(".products-campaigns__move-left").click(function(){
+  $("#carousel-container-slider").removeClass("carousel-container-slider__slide-left");
+});
+
+function iconExplainOpen() {
+  var element = document.querySelector ('.icon-explain__container')
+  element.style.display === "none"
+  element.style.display = "flex"
+
+  var element = document.querySelector ('.products-aside-icon-explain__close')
+  element.style.display === "none"
+  element.style.display = "flex"
+}
+
+function iconExplainClose() {
+  var element = document.querySelector ('.icon-explain__container')
+  element.style.display === "flex"
+  element.style.display = "none"
+
+  var element = document.querySelector ('.products-aside-icon-explain__close')
+  element.style.display === "flex"
+  element.style.display = "none"
+}
