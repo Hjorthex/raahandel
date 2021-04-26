@@ -64,8 +64,6 @@ function iconExplainClose() {
   element.style.display = "none"
 }
 
-
-
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 27, 2021 06:00:00").getTime();
 
@@ -94,3 +92,6 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// Google Maps
+
