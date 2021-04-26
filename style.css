@@ -1378,6 +1378,7 @@ input:checked + .products-aside-filter__slider:before {
     "image info info"
     ". info info";
     width: 100%;
+    margin-bottom: 10rem;
 }
 
 .single-product__img {
@@ -1538,6 +1539,7 @@ input:checked + .products-aside-filter__slider:before {
 .single-product-description__text {
     color: var(--color-secondary);
     margin-bottom: 1rem;
+}
 
   /* manufacturers -----------------------------------------*/
 
@@ -1613,4 +1615,200 @@ input:checked + .products-aside-filter__slider:before {
     width: 3rem;
     height: 3rem;
     background-color: var(--color-third);
+}
+
+
+/* BASKET PAGE -------------------------------------------------------------------------------*/
+
+.basket-page {
+    min-height: calc(100vh - 8.35rem);
+    margin: 7.5rem 2.5rem 0 2.5rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "content content content order"
+    "content content content ."
+    ". . . ."
+    ". . . .";
+}
+
+.basket__contents {
+    padding: 1.5rem;
+    grid-area: content;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+}
+
+.basket-contents__heading {
+    color: var(--color-third);
+    font-weight: 600;
+}
+
+.basket-contents__products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.basket-contents-products__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.basket-contents-products__quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+
+}
+
+.basket-product-quantity__number {
+    display: flex;
+}
+
+.caption-transparent {
+    color: transparent;
+}
+
+.products-list__caption {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.basket-product__details, .basket-product__price, .basket-product-quantity__number, .basket-product__close {
+    height: 6rem;
+}
+
+.basket-product__manufacturer {
+    font-weight: 600;
+    color: var(--color-third);
+}
+
+.basket-product__price {
+    text-align: right;
+    font-weight: 600;
+}
+
+.basket-product-quantity__number {
+    font-weight: 600;
+}
+
+.basket-product-quantity__count {
+    margin: 0.05rem 0.3rem 0 0.3rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.basket-product-quantity__minus, .basket-product-quantity__plus {
+    color: var(--color-third);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.basket-product-quantity__plus {
+    margin-top: 0.05rem;
+}
+
+.basket-product__close {
+    font-weight: 800;
+    color: var(--color-third);
+}
+
+.basket-contents-contact__person {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.basket-contents-contact__mail {
+    display: flex;
+}
+
+.basket-contents-contact__phone {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.basket-contents-contact__payment {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.basket-contents-contact__address-heading, .basket-contents-contact__heading {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.basket-contents-contact__caption, .basket-contents-contact__address-caption {
+    font-size: 1.1rem;
+}
+
+
+.basket__order {
+    grid-area: order;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    padding: 1.5rem;
+}
+
+.basket-order__heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.basket-order-heading__underline {
+    height: 3px;
+    width: 6.5rem;
+    background-color: var(--color-secondary);
+}
+
+.basket-order__prices {
+    margin-top: 3rem;
+}
+
+.basket-order-prices__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basket-order-prices-line__caption, .basket-order-prices-line__price {
+    font-weight: 600;
+    margin: 0.25rem 0;
+}
+
+.basket-order__vat {
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
+}
+
+.basket-order__checkout-btn {
+    margin-top: 2rem;
+    background-color: var(--color-third);
+    color: var(--color-white);
+    width: 100%;
+    display: block;
+    padding: 1.1em 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.basket-order__checkout-caption {
+    font-weight: 600;
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto 0 auto;
 }
