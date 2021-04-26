@@ -93,5 +93,16 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-// Google Maps
+// Manufacturers - Single-Manufacturers - Contact
 
+function contactOpen() {
+  var element = document.querySelector ('.single-manufacturers__contact-container')
+  element.style.display === "none"
+  element.style.display = "flex"
+}
+
+function contactClose() {
+  var element = document.querySelector ('.single-manufacturers__contact-container')
+  element.style.display === "flex"
+  element.style.display = "none"
+}
