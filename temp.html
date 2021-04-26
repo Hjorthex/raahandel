@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+
+    <aside class="products-aside">
+        <div class="products-aside__container">
+            <div class="products-aside-icon-explain__container">
+                <img onclick="iconExplainOpen()" class="products-aside-icon-explain__info-logo" src="./images/evcmrmhhwswbpl21vppq.svg" alt="icon explainer logo">
+                <p onclick="iconExplainOpen()" class="products-aside-icon-explain__text">Ikonforklaring</p>
+                <div class="products-aside-icon-explain__close" onclick="iconExplainClose()"></div>
+            </div>
+            <div class="icon-explain__container">
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/organic_oua6f1.svg" alt="økologisk ikon">
+                    <p class="icon-explain__icons-text">Økologisk</p>
+                </div>
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/cold_bdv334.svg" alt="kølevare ikon">
+                    <p class="icon-explain__icons-text">Kølevare</p>
+                </div>
+                <div class="icon-explain__icon-wrapper">
+                    <img class="icon-explain__icons" src="./images/icons/frozen_irz2za.svg" alt="Frostvarer">
+                    <p class="icon-explain__icons-text">Frostvare</p>
+                </div>
+            </div>
+            <div class="products-aside-categories__container">
+                <h2 class="products-aside-categories__caption">Kategorier</h2>
+                <div class="products-aside-categories__underline"></div>
+                <div class="products-aside-cateogries__categories">
+                    <button id="product-aside-categories__btn-styling"></button>
+                    <button id="product-aside-categories__btn-styling"></button>
+                    <button id="product-aside-categories__btn-styling"></button>
+                    <button id="product-aside-categories__btn-styling"></button>
+                    <button id="product-aside-categories__btn-styling"></button>
+                </div>
+            </div>
+
+            <div class="products-aside-filter__container">
+                <h2 class="products-aside-filter__caption">Filter</h2>
+                <div class="products-aside-filter__underline"></div>
+                
+                <div class="product-aside-filter__row">
+                    <label class="products-aside-filter__soldout-switch">
+                        <input type="checkbox" checked>
+                        <span class="products-aside-filter__slider round"></span>
+                    </label>
+                    <p class="products-aside-filter__text">Skjul udsolgte varer</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="products-campaigns">
+        <div class="products-campaigns__container">
+            <h2 class="products-campaigns__caption">Kampagner</h2>
+            <div class="products-campaigns__underline"></div>
+
+            <div class="products-campaigns__carousel">
+                <button class="products-campaigns__move-left">
+                        <div class="products-campaigns__arrow-left"></div>
+                </button>
+
+            <div class="carousel-wrapper">    
+                <div id="carousel-container-slider" class="carousel-container">
+                    <div class="products-campaign__example">
+
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-1">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+
+                        
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Michaels Mølle</h2>
+                            <h3 class="prod1__product-name">Snoremark Æblemjød, Hyben</h3>
+                            <p class="prod1__product-info">8 x 500 ml / 14,5% / Dessertvin</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-2">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Butik Ost</h2>
+                            <h3 class="prod1__product-name">Manchego</h3>
+                            <p class="prod1__product-info">10 x 260g / Manchego</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-3">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Butik Ost</h2>
+                            <h3 class="prod1__product-name">Gorgonzola</h3>
+                            <p class="prod1__product-info">10 x 200g / 14,5% / Dessertvin</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-4">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Charcuteri Shoppen</h2>
+                            <h3 class="prod1__product-name">Salsiccia</h3>
+                            <p class="prod1__product-info">5 x 70g / Salsiccia</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="carousel-container">
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-5">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Michaels Mølle</h2>
+                            <h3 class="prod1__product-name">Snoremark Æblemjød, Hyben</h3>
+                            <p class="prod1__product-info">8 x 500l / 14,5% / Dessertvin</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-6">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Butik Ost</h2>
+                            <h3 class="prod1__product-name">Manchego</h3>
+                            <p class="prod1__product-info">10 x 260g / Manchego</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-7">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Butik Ost</h2>
+                            <h3 class="prod1__product-name">Gorgonzola</h3>
+                            <p class="prod1__product-info">10 x 200g / 14,5% / Dessertvin</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tester" class="products-campaign__example">
+                        <div class="products-campaign__prod1-img-container products-campaign__prod1-img-8">
+                            <div class="products-campaign__sale">
+                                <h2 class="products-campaign__sale-text">SPAR 25%</h2>
+                            </div>
+                        </div>
+                        <div class="prod__info-container">
+                            <h2 class="prod1__company-name">Charcuteri Shoppen</h2>
+                            <h3 class="prod1__product-name">Salsiccia</h3>
+                            <p class="prod1__product-info">5 x 70g / Salsiccia</p>
+                            <div class="prod1-price__container">
+                                <div class="prod1-price">
+                                    <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                    <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                                </div>
+                                <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <button onclick="moveRight()" class="products-campaigns__move-right">
+                        <div class="products-campaigns__arrow-right"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-items">
+        <div class="products-items__container">
+            <h2 class="products-items__caption">Varer</h2>
+            <div class="products-items__underline"></div>
+            <input class="products-items__search" type="searchfield" placeholder="Søg">
+            <div class="products-items__search-icon"></div>
+            
+            <div class="items-container">
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.23.44.png" alt="Kombucha">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Kombucha King</h2>
+                        <h3 class="prod1__product-name">Kombucha</h3>
+                        <p class="prod1__product-info">12 x 0,75l / Kombucha</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.23.37.png" alt="Kombucha">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Kombucha King</h2>
+                        <h3 class="prod1__product-name">Kombucha</h3>
+                        <p class="prod1__product-info">12 x 0,75l / Kombucha</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.27.06.png" alt="Gouda">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Butik Ost</h2>
+                        <h3 class="prod1__product-name">Gouda</h3>
+                        <p class="prod1__product-info">10 x 300g / Gouda</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.26.01.png" alt="Chardonnay">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Vin Producenten</h2>
+                        <h3 class="prod1__product-name">Chardonnay</h3>
+                        <p class="prod1__product-info">6 x 0,75l / Chardonnay</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.25.00.png" alt="Syrah">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Vin Producenten</h2>
+                        <h3 class="prod1__product-name">Syrah</h3>
+                        <p class="prod1__product-info">6 x 0,75l / Syrah</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.24.39.png" alt="Hvidvin">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Organic Wine</h2>
+                        <h3 class="prod1__product-name">Hvidvin</h3>
+                        <p class="prod1__product-info">6 x 0,75l / Hvidvin</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.27.06.png" alt="Chili Flakes">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Spice Time</h2>
+                        <h3 class="prod1__product-name">Chili Flakes</h3>
+                        <p class="prod1__product-info">12 x 50g / Chiliflager</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-campaign__example">
+                    <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 13.32.11.png" alt="Oregano">
+                    <div class="prod__info-container">
+                        <h2 class="prod1__company-name">Spice Time</h2>
+                        <h3 class="prod1__product-name">Oregano</h3>
+                        <p class="prod1__product-info">12 x 50g / Oregano</p>
+                        <div class="prod1-price__container">
+                            <div class="prod1-price">
+                                <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                                <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                            </div>
+                            <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-other-items">
+        <div class="products-other-items__container">
+            <h2 class="products-other-items__caption">Andre kiggede på</h2>
+            <div class="products-other-items__underline"></div>
+        </div>
+
+        <div class="products-other-items-container">
+            <div class="products-campaign__example">
+                <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.22.18.png" alt="T-Bone">
+                <div class="prod__info-container">
+                    <h2 class="prod1__company-name">Kød Kværnen</h2>
+                    <h3 class="prod1__product-name">T-Bone</h3>
+                    <p class="prod1__product-info">1 x 200g / T-bone</p>
+                    <div class="prod1-price__container">
+                        <div class="prod1-price">
+                            <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                            <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                        </div>
+                        <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-campaign__example">
+                <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.22.27.png" alt="Ribeye">
+                <div class="prod__info-container">
+                    <h2 class="prod1__company-name">Kød Kværnen</h2>
+                    <h3 class="prod1__product-name">Ribeye</h3>
+                    <p class="prod1__product-info">5 x 250g / Ribeye</p>
+                    <div class="prod1-price__container">
+                        <div class="prod1-price">
+                            <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                            <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                        </div>
+                        <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-campaign__example">
+                <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 14.35.26.png" alt="Kombucha">
+                <div class="prod__info-container">
+                    <h2 class="prod1__company-name">Kombucha King</h2>
+                    <h3 class="prod1__product-name">Kombucha</h3>
+                    <p class="prod1__product-info">12 x 0,75l / Kombucha</p>
+                    <div class="prod1-price__container">
+                        <div class="prod1-price">
+                            <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                            <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                        </div>
+                        <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-campaign__example">
+                <img class="products-campaign__prod1-img" src="./images/products-img/Skærmbillede 2021-04-22 kl. 15.25.15.png" alt="Natur hvidvin">
+                <div class="prod__info-container">
+                    <h2 class="prod1__company-name">Organic Wine</h2>
+                    <h3 class="prod1__product-name">Natur hvidvin</h3>
+                    <p class="prod1__product-info">6 x 0,75l / Hvidvin</p>
+                    <div class="prod1-price__container">
+                        <div class="prod1-price">
+                            <h2 class="prod1-price__price">680,00 kr./ kolli</h2>
+                            <p class="prod1-price__price-per-unit">85,00 kr./enhed</p>
+                        </div>
+                        <div id="add-to-cart__btn" onclick="basketAppear()" class="prod1-price__basket-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
