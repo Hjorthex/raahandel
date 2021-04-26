@@ -415,7 +415,7 @@ body {
     top: 5.35rem;
     right: 0;
     position: fixed;
-    background-color: var(--color-primary);
+    background-color: var(--color-white);
     width: 25rem;
     z-index: 111;
     border: 1px solid var(--color-border);
@@ -1480,9 +1480,9 @@ input:checked + .products-aside-filter__slider:before {
 
 .single-product-delivery-deadline__container {
     border: 2px solid var(--color-border);
-    width: 26rem;
+    width: 21.8rem;
     height: 4.5rem;
-    padding: 0.3rem;
+    padding: 0.3rem 0rem 0.3rem 0.3rem;
 }
 
 .single-product__buy {
