@@ -1448,6 +1448,39 @@ input:checked + .products-aside-filter__slider:before {
     font-weight: 600;
 }
 
+.delivery-days__checkmark {
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: -2.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.1rem solid var(--color-third);
+}
+
+.delivery-days__checkmark:before {
+    content: '';
+    position: absolute;
+    top: 0.3rem;
+    left: 1rem;
+    width: 0.1rem;
+    height: 1.2rem;
+    background-color: var(--color-third);
+    transform: rotate(30deg);
+}
+
+.delivery-days__checkmark:after {
+    content: '';
+    position: absolute;
+    top: 0.8rem;
+    left: 0.6rem;
+    width: 0.1rem;
+    height: 0.7rem;
+    background-color: var(--color-third);
+    transform: rotate(-30deg);
+}
+
+
 .delivery-days__current {
     border: 3px solid var(--color-third);
     color: var(--color-third);
