@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Producenter</title>
+</head>
+<body>
+    <header class="header-customer">
+        <nav class="header-customer__topnav">
+            <ul class="header-customer__toplist">
+                <li class="header-customer__toplink toplink--capitalize"><a href="">Hej Sona</a></li>
+                <li class="header-customer__toplink toplink--uppercase"><a href="">Konto</a></li>
+                <li class="header-customer__toplink toplink--uppercase"><a href="../index.html">Log ud</a></li>
+            </ul>
+        </nav>
+        <nav class="header-customer__navigation">
+            <a class="header-customer-logolink" href="../products.html"><img class="header-customer__logo" src="../images/logoBlackHorizontal_h6pnu5.svg" alt="logo"></a>
+            <ul class="header-customer__list">
+                <li class="header-customer__link"><a href="../products.html">varer</a></li>
+                <li class="header-customer__link current-page-link"><a href="../manufacturers.html">producenter</a></li>
+                <li class="header-customer__link"><a  id="deliveryday">leveringsdag</a></li>
+                <li onmouseover="basketAppear()"  class="header-customer__link"><a id="show-basket-dropdown" href="../Raahandel/basket.html">kurv</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="basket-dropdown">
+        <h2 class="basket-dropdown__heading">Kurv</h2>
+        <div class="basket-dropdown__heading-border"></div>
+        <div class="basket-dropdown__product">
+            <div class="basket-dropdown-product__image"></div>
+            <div class="basket-dropdown-product__info">
+                <div class="basket-dropdown-product__details">
+                    <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
+                    <p class="basket-dropdown-product__colli">8 x 500 ml / 14,5 %</p>
+                </div>
+            </div>
+            <div class="basket-dropdown-product__numbers">
+                <div class="basket-dropdown-product__amount">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+                <div class="basket-dropdown-product__price">
+                    <p>680,00kr</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="basket-dropdown__product add-product">
+            <div class="basket-dropdown-product__image"></div>
+            <div class="basket-dropdown-product__info">
+                <div class="basket-dropdown-product__details">
+                    <h4 class="basket-dropdown-product__name">Snoremark Æblemjød, Hyben</h4>
+                    <p class="basket-dropdown-product__colli">8 x 500 ml / 14,5 %</p>
+                </div>
+            </div>
+            <div class="basket-dropdown-product__numbers">
+                <div class="basket-dropdown-product__amount">
+                    <p>-</p>
+                    <p>1</p>
+                    <p>+</p>
+                </div>
+                <div class="basket-dropdown-product__price">
+                    <p>680,00kr</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="basket-dropdown__total">
+            <div class="basket-dropdown-total__delivery">
+                <p class="basket-dropdown-total-delivery__text">Levering</p>
+                <p class="basket-dropdown-total-delivery__price">100,00 kr</p>
+            </div>
+            <div class="basket-dropdown-total__price">
+                <p class="basket-dropdown-total-price__text">Total inkl. moms</p>
+                <p class="basket-dropdown-total-price__price">1360,00 kr</p>
+            </div>
+        </div>
+        <a class="basket-dropdown__link" href="../basket.html">Gå til kurv</a>
+    </div>
+
+    <aside class="delivery-container">
+        <div>
+            <div>
+                <h2 class="delivery-heading">Leveringsdag</h2>
+                <div class="delivery-heading-border"></div>
+            </div>
+            <div class="close-delivery"></div>
+        </div>
+        <div class="calender">
+            <div class="calender-nav">
+                <p class="calender-month">april 2021</p>
+                <div class="arrows">
+                    <div class="delivery-prev-month"></div>
+                    <div class="delivery-next-month"></div>
+                </div>
+            </div>
+            <div class="calender-days">
+                <p class="calender-weekdays monday">man</p>
+                <p class="calender-weekdays tuesday">tir</p>
+                <p class="calender-weekdays wednesday">ons</p>
+                <p class="calender-weekdays thursday">tor</p>
+                <p class="calender-weekdays friday">fre</p>
+                <p class="calender-weekdays saturday">lør</p>
+                <p class="calender-weekdays sunday">søn</p>
+                <p class="date date1">1</p>
+                <p class="date date2">2</p>
+                <p class="date date3">3</p>
+                <p class="date date4">4</p>
+                <p class="date date5">5</p>
+                <p class="date date6">6</p>
+                <p class="date date7">7</p>
+                <p class="date date8">8</p>
+                <p class="date date9">9</p>
+                <p class="date date10">10</p>
+                <p class="date date11">11</p>
+                <p class="date date12">12</p>
+                <p class="date date13">13</p>
+                <p class="date date14">14</p>
+                <p class="date date15">15</p>
+                <p class="date date16">16</p>
+                <p class="date date17">17</p>
+                <p class="date date18">18</p>
+                <p class="date date19">19</p>
+                <p class="date date20">20</p>
+                <p class="date date21">21</p>
+                <p id="delivery-date1" class="date delivery-date date22">22</p>
+                <p class="date date23">23</p>
+                <p class="date date24">24</p>
+                <p class="date date25">25</p>
+                <p class="date date26">26</p>
+                <p class="date date27">27</p>
+                <p class="date date28">28</p>
+                <p id="delivery-date2" class="date delivery-date date29">29</p>
+                <p class="date date30">30</p>
+            </div>
+        </div>
+    </aside>
+
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="../main.js"></script>
+</body>
