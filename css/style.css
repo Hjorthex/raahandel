@@ -2043,6 +2043,7 @@ input:checked + .products-aside-filter__slider:before {
 
 .google-maps {
     width: 100%;
+    border: 0.1rem solid var(--color-border);
 }
 
 .google-maps > iframe {
