@@ -23,7 +23,7 @@ body {
     width: 100vw;
     background-color: var(--color-primary);
     overflow-x: hidden;
-    background-image: url(./images/backgroundPatternBig_zsspyc-opacity.svg);
+    background-image: url(../images/backgroundPatternBig_zsspyc-opacity.svg);
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 40%;
@@ -454,7 +454,7 @@ body {
 }
 
 .basket-dropdown-product__image {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
     background-size: 100%;
     height: 5rem;
     width: 5rem;
@@ -1131,35 +1131,35 @@ input:checked + .products-aside-filter__slider:before {
 }
 
 .products-campaign__prod1-img-1 {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
 }
 
 .products-campaign__prod1-img-2 {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
 }
 
 .products-campaign__prod1-img-3 {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
 }
 
 .products-campaign__prod1-img-4 {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
 }
 
 .products-campaign__prod1-img-5 {
-    background-image: url(./images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 13.54.25.png);
 }
 
 .products-campaign__prod1-img-6 {
-    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 14.34.42.png);
 }
 
 .products-campaign__prod1-img-7 {
-    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.21.17.png);
 }
 
 .products-campaign__prod1-img-8 {
-    background-image: url(images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
+    background-image: url(../images/products-img/Skærmbillede\ 2021-04-22\ kl.\ 15.22.08.png);
 }
 
 .products-campaign__sale {
@@ -1217,7 +1217,7 @@ input:checked + .products-aside-filter__slider:before {
     width: 3rem;
     height: 100%;
     background-color: var(--color-third);
-    background-image: url(./images/icons/bv4bf3kxkg7abrm5irtr.svg);
+    background-image: url(../images/icons/bv4bf3kxkg7abrm5irtr.svg);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
