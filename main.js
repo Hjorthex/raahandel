@@ -63,3 +63,5 @@ function iconExplainClose() {
   element.style.display === "flex"
   element.style.display = "none"
 }
+
+// Google Maps
