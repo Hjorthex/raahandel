@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Producenter</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/icons/favicon.png" type="image/x-icon">
+    <title>Råhandel | Producenter</title>
 </head>
 <body>
     <header class="header-customer">
@@ -17,12 +19,12 @@
             </ul>
         </nav>
         <nav class="header-customer__navigation">
-            <a class="header-customer-logolink" href="../products.html"><img class="header-customer__logo" src="../images/logoBlackHorizontal_h6pnu5.svg" alt="logo"></a>
+            <a class="header-customer-logolink" href="./varer.html"><img class="header-customer__logo" src="../images/logoBlackHorizontal_h6pnu5.svg" alt="logo"></a>
             <ul class="header-customer__list">
-                <li class="header-customer__link"><a href="../products.html">varer</a></li>
-                <li class="header-customer__link current-page-link"><a href="../manufacturers.html">producenter</a></li>
+                <li class="header-customer__link"><a href="./varer.html">varer</a></li>
+                <li class="header-customer__link current-page-link"><a href="./producenter.html">producenter</a></li>
                 <li class="header-customer__link"><a  id="deliveryday">leveringsdag</a></li>
-                <li onmouseover="basketAppear()"  class="header-customer__link"><a id="show-basket-dropdown" href="../Raahandel/basket.html">kurv</a></li>
+                <li onmouseover="basketAppear()"  class="header-customer__link"><a id="show-basket-dropdown" href="./kurv.html">kurv</a></li>
             </ul>
         </nav>
     </header>
@@ -40,9 +42,9 @@
             </div>
             <div class="basket-dropdown-product__numbers">
                 <div class="basket-dropdown-product__amount">
-                    <p>-</p>
-                    <p>1</p>
-                    <p>+</p>
+                    <p class="basket-dropdown-product__minus">-</p>
+                    <p class="basket-dropdown-product__number">1</p>
+                    <p class="basket-dropdown-product__plus">+</p>
                 </div>
                 <div class="basket-dropdown-product__price">
                     <p>680,00kr</p>
@@ -60,9 +62,9 @@
             </div>
             <div class="basket-dropdown-product__numbers">
                 <div class="basket-dropdown-product__amount">
-                    <p>-</p>
-                    <p>1</p>
-                    <p>+</p>
+                    <p class="basket-dropdown-product__minus">-</p>
+                    <p class="basket-dropdown-product__number">1</p>
+                    <p class="basket-dropdown-product__plus">+</p>
                 </div>
                 <div class="basket-dropdown-product__price">
                     <p>680,00kr</p>
@@ -80,7 +82,7 @@
                 <p class="basket-dropdown-total-price__price">1360,00 kr</p>
             </div>
         </div>
-        <a class="basket-dropdown__link" href="../basket.html">Gå til kurv</a>
+        <a class="basket-dropdown__link" href="./kurv.html">Gå til kurv</a>
     </div>
 
     <aside class="delivery-container">
@@ -144,21 +146,21 @@
     <aside class="products-aside">
         <div class="products-aside__container">
             <div class="products-aside-icon-explain__container">
-                <img onclick="iconExplainOpen()" class="products-aside-icon-explain__info-logo" src="./images/evcmrmhhwswbpl21vppq.svg" alt="icon explainer logo">
+                <img onclick="iconExplainOpen()" class="products-aside-icon-explain__info-logo" src="../images/evcmrmhhwswbpl21vppq.svg" alt="icon explainer logo">
                 <p onclick="iconExplainOpen()" class="products-aside-icon-explain__text">Ikonforklaring</p>
                 <div class="products-aside-icon-explain__close" onclick="iconExplainClose()"></div>
             </div>
             <div class="icon-explain__container">
                 <div class="icon-explain__icon-wrapper">
-                    <img class="icon-explain__icons" src="./images/icons/organic_oua6f1.svg" alt="økologisk ikon">
+                    <img class="icon-explain__icons" src="../images/icons/organic_oua6f1.svg" alt="økologisk ikon">
                     <p class="icon-explain__icons-text">Økologisk</p>
                 </div>
                 <div class="icon-explain__icon-wrapper">
-                    <img class="icon-explain__icons" src="./images/icons/cold_bdv334.svg" alt="kølevare ikon">
+                    <img class="icon-explain__icons" src="../images/icons/cold_bdv334.svg" alt="kølevare ikon">
                     <p class="icon-explain__icons-text">Kølevare</p>
                 </div>
                 <div class="icon-explain__icon-wrapper">
-                    <img class="icon-explain__icons" src="./images/icons/frozen_irz2za.svg" alt="Frostvarer">
+                    <img class="icon-explain__icons" src="../images/icons/frozen_irz2za.svg" alt="Frostvarer">
                     <p class="icon-explain__icons-text">Frostvare</p>
                 </div>
             </div>
@@ -196,104 +198,104 @@
         </div>
 
         <div class="manufacturers-container">
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/butik ost.png" alt="Butik ost">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/butik ost.png" alt="Butik ost">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Butik Ost</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/kød kværnen.png" alt="Kød kværnen">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/kød kværnen.png" alt="Kød kværnen">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Kød Kværnen</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/vin producenten.png" alt="Vin producenten">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/vin producenten.png" alt="Vin producenten">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Vin Producenten</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/michaels mølle.png" alt="Michaels mølle">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/michaels mølle.png" alt="Michaels mølle">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Michaels Mølle</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/kombucha king.png" alt="Kombucha king">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/kombucha king.png" alt="Kombucha king">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Kombucha King</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/charcuteri shoppen.png" alt="Charcuteri shoppen">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/charcuteri shoppen.png" alt="Charcuteri shoppen">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Charcuteri shoppen</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/spice time.png" alt="Spice time">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/spice time.png" alt="Spice time">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Spice Time</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="manufacturers__example">
-                <img class="manufacturers-img" src="./images/manufacturers-img/organic wines.png" alt="Organic wine">
+            <a href="./producenter/producent.html" class="manufacturers__example">
+                <img class="manufacturers-img" src="../images/manufacturers-img/organic wines.png" alt="Organic wine">
                 <div class="manufacturers__info-container">
                     <h2 class="manufacturers__company-name">Organic Wine</h2>
                     <div class="manufacturers__filter-icons">
                         <div class="filter-icons__cheese"></div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </section>
 
     <footer>
         <div class="footer-container">
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
             </div>
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
             </div>
             <div class="footer-column">
-                <img class="footer-column__img" src="./images/questionmark.png" alt="questionmark-icon">
+                <img class="footer-column__img" src="../images/questionmark.png" alt="questionmark-icon">
                 <h3 class="footer-column__heading">Guide til producenterne</h3>
                 <p class="footer-column__caption">Placeholder til guides på platformen</p>
                 <a class="footer-column__link" href="#">Læs mere</a>
@@ -301,7 +303,7 @@
         </div>
         <div class="footer-bottom-container">
             <div class="footer-column">
-                <img class="footer-logo" src="./images/logoBlackHorizontal_h6pnu5@2x.png" alt="logo">
+                <img class="footer-logo" src="../images/logoBlackHorizontal_h6pnu5@2x.png" alt="logo">
             </div>
             <div class="footer-column">
                 <ul class="footer-list">
@@ -339,6 +341,6 @@
         </div>
     </footer>
 
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
     </body>
