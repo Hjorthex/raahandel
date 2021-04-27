@@ -753,7 +753,7 @@ footer {
 
 .manufacturer-nav__custom-icon {
     width: 3.2rem;
-    margin-bottom: 0.3rem;
+    margin: 0 1.2rem 0.3rem 1.2rem;
 }
 
 .manufacturer-current-link {
@@ -2236,4 +2236,11 @@ input:checked + .products-aside-filter__slider:before {
     left: 0.45rem;
     background-color: var(--color-third);
     transform: rotate(45deg);
+}
+
+/* PP - VARER --------------------------------------- */
+
+.pp-wrapper {
+    width: calc(100vw - 8rem);
+    margin-left: 8rem;
 }
