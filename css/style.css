@@ -662,6 +662,112 @@ footer {
 
 /* HEADER MANUFACTURER */
 
+.manufacturer__profile-container {
+    display: flex;
+    position: fixed;
+    right: 1.5rem;
+    top: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.5rem;
+}
+
+.manufacturer-profile-container__name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.manufacturer-profile-container__circle {
+    border-radius: 50%;
+    background-color: var(--color-border);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.manufacturer-profile-container__initial {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+.manufacturer-aside__container {
+    background-color: var(--color-primary);
+    width: 8rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid var(--color-border);
+}
+
+.manufacturer-aside-container__logo-container {
+    height: 8rem;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manufacturer-aside-container__logo {
+    width: 6.5rem;
+}
+
+.manufacturer-aside__navigation {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 27rem;
+}
+
+.manufacturer-aside-navigation__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.manufacturer-aside-navigation-list__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manufacturer-aside-navigation-list__button {
+    text-align: center;
+    color: var(--color-secondary);
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+.manufacturer-aside-navigation-list__icon {
+    width: 5rem;
+}
+
+.manufacturer-nav__custom-icon {
+    width: 3.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.manufacturer-current-link {
+    color: var(--color-third);
+    border-right: 4px solid var(--color-third);
+}
+
+.manufacturer-aside-navigation-list__text {
+    font-size: 0.8rem;
+}
+
+.manufacturer-current-text {
+    color: var(--color-third);
+}
 
 /* HERO */
 
