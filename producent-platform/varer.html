@@ -58,14 +58,14 @@
                     <h2 class="pp-products__caption">Varer</h2>
                     <div class="pp-products__overview-caption-underline"></div>
                     <div class="pp-products__overview-icon-container">
-                        <div class="pp-products__overview-icon">
+                        <a href="../producent-platform/varer/opret-vare.html" class="pp-products__overview-icon">
                             <img class="pp-products__overview-icon-img pp-products__overview-icon-img--resize" src="../images/icons/Opret vare.svg" alt="">
                             <p class="pp-products__overview-text">Opret varer</p>
-                        </div>
-                        <div class="pp-products__overview-icon">
+                        </a>
+                        <a href="../producent-platform/varer/opret-kampagne.html" class="pp-products__overview-icon">
                             <img class="pp-products__overview-icon-img" src="../images/icons/Rediger vare.svg" alt="">
                             <p class="pp-products__overview-text">Opret kampagne</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -129,26 +129,60 @@
         </section>
         <section class="pp-my-products">
             <div class="pp-products__overview-products">
-                <input class="products-items__search" type="searchfield" placeholder="Søg">
-                <div class="products-items__search-icon"></div>
+                <input class="pp-products-items__search" type="searchfield" placeholder="Søg">
+                <div class="pp-products-items__search-icon"></div>
                 <div class="pp-my-products__nav">
                     <ul>
-                        <li><a href="">Alle</a></li>
-                        <li><a href="">Afventer</a></li>
-                        <li><a href="">Til salg</a></li>
-                        <li><a href="">Udsolgt</a></li>
-                        <li><a href="">Skjult</a></li>
+                        <li class="pp-my-products__nav--target"><a class="pp-my-products__nav-link pp-my-products__nav-link--target" href="">Alle</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Afventer</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Til salg</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Udsolgt</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Skjult</a></li>
                     </ul>
                 </div>
                 <div class="pp-my-products__nav-page-container">
                     <div class="pp-my-products__nav-page-arrow-left"></div>
-                    <p>1</p>
-                    <p>2</p>
+                    <p class="pp-my-products__nav-page pp-my-products__nav-page--current">1</p>
+                    <p class="pp-my-products__nav-page">2</p>
                     <div class="pp-my-products__nav-page-arrow-right"></div>
                 </div>
                 <div class="pp-my-products__selection">
                     <div class="pp-my-products__selection-top-bar">
-                        <div></div>
+                        <div class="pp-my-products__selection-check"></div>
+                        <p class="pp-my-products__selection-customer">Kunde</p>
+                        <p class="pp-my-products__selection-kolli-size">Kolli størrelse</p>
+                        <p class="pp-my-products__selection-price">Pris</p>
+                        <p class="pp-my-products__selection-stock">Beholdning</p>
+                        <p class="pp-my-products__selection-status">Status</p>
+                        <p class="pp-my-products__selection-action">Handling</p>
+                    </div>
+                    <div class="pp-my-products__selection-container">
+                        <div class="pp-my-products__selection-check pp-my-products__selection-check--short"></div>
+                        <img class="pp-my-products__selection-image" src="../images/manufacturers-img/michaels mølle.png" alt="Michaels Mølle">
+                        <div class="pp-my-products__selection-producent-info">
+                            <p class="selection-producent-name">Producenten</p>
+                            <p class="selection-producent-text">Varer navn</p>
+                            <p class="selection-producent-type">Kategorier</p>
+                        </div>
+                        <p class="pp-my-products__product-kolli-size pp-my-products__product-kolli-size--longer">2 x 7l</p>
+                        <p class="pp-my-products__product-price">120,00kr.</p>
+                        <p class="pp-my-products__product-stock">I alt 10</p>
+                        <p class="pp-my-products__product-status">Til salg</p>
+                        <div class="pp-my-products__product-no-display"></div>
+                    </div>
+                    <div class="pp-my-products__selection-container">
+                        <div class="pp-my-products__selection-check pp-my-products__selection-check--short"></div>
+                        <img class="pp-my-products__selection-image" src="../images/manufacturers-img/michaels mølle.png" alt="Michaels Mølle">
+                        <div class="pp-my-products__selection-producent-info">
+                            <p class="selection-producent-name">Producenten</p>
+                            <p class="selection-producent-text">Varer navn</p>
+                            <p class="selection-producent-type">Kategorier</p>
+                        </div>
+                        <p class="pp-my-products__product-kolli-size pp-my-products__product-kolli-size--longer">2 x 7l</p>
+                        <p class="pp-my-products__product-price">120,00kr.</p>
+                        <p class="pp-my-products__product-stock">I alt 10</p>
+                        <p class="pp-my-products__product-status">Til salg</p>
+                        <div class="pp-my-products__product-display"></div>
                     </div>
                 </div>
             </div>
