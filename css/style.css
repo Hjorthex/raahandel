@@ -4013,3 +4013,166 @@ input:checked + .products-aside-filter__slider:before {
 .pp-input-text--wider {
     width: 5rem;
 }
+
+/* PP Opret vare 4 / 5 -------------------------------------- */
+
+.pp-input-widebar-deadline {
+    width: 32rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pp-input-deadline {
+    padding-right: 0.5rem;
+    font-weight: bold;
+}
+
+.pp-create-item__deadline-container {
+    display: flex;
+    flex-direction: row;
+    width: 34rem;
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+
+.pp-create-item__deadline-days {
+    width: 5rem;
+    height: 7rem;
+    outline: 0.1rem solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    height: 8rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+}
+
+.pp-create-item__deadline-text {
+    padding-top: 1rem;
+}
+
+.pp-create-item__deadline-text--padding {
+    padding-top: 5rem;
+}
+
+.pp-create-item__deadline-checkmark {
+    width: 3rem;
+    height: 3rem;
+    border-style: solid;
+    border-color: var(--color-third);
+    border-width: 0.2rem;
+    border-radius: 50%;
+}
+
+.pp-create-item__deadline-checkmark:before {
+    width: 0.2rem;
+    height: 1.8rem;
+    position: absolute;
+    content: '';
+    background-color: var(--color-third);
+    transform: rotate(35deg);
+    top: 20.1rem;
+    left: 47.2rem;
+}
+
+.pp-create-item__deadline-checkmark:after {
+    width: 0.2rem;
+    height: 1.2rem;
+    position: absolute;
+    content: '';
+    background-color: var(--color-third);
+    transform: rotate(-35deg);
+    top: 20.6rem;
+    left: 46.4rem;
+}
+
+.pp-create-item__preview-image--inserted {
+    background-image: url(../images/icons/drikkevarer.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* Opret vare 5 / 5 ---------------------------------*/
+
+.pp-create-items__add-images {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+}
+
+.pp-create-items__add-images-contains {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-images-contains__frame {
+    height: 10rem;
+    width: 10rem;
+    margin-right: 1rem;
+    outline: 0.2rem dotted var(--color-third);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-third);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.add-images-contains__frame-icon {
+    width: 3rem;
+    height: 3rem;
+    border: 0.2rem solid var(--color-third);
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.add-images-contains__frame-icon:before {
+    position: absolute;
+    content: '';
+    width: 0.2rem;
+    height: 1.5rem;
+    background-color: var(--color-third);
+    margin-top: 0.6rem;
+    margin-left: -0.1rem;
+}
+
+.add-images-contains__frame-icon:after {
+    position: absolute;
+    content: '';
+    width: 0.2rem;
+    height: 1.5rem;
+    background-color: var(--color-third);
+    margin-top: 0.6rem;
+    margin-left: -0.1rem;
+    transform: rotate(90deg);
+}
+
+.add-images-contains__text {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+    height: 2rem;
+}
+
+.add-images-contains__frame-text {
+    width: 8rem;
+}
+
+.pp-item-end__textarea {
+    width: 32rem;
+    resize: none;
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    padding: 0.5rem;
+    color: var(--color-border);
+}
