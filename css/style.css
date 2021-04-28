@@ -3731,6 +3731,7 @@ input:checked + .products-aside-filter__slider:before {
     display: flex;
     flex-wrap: wrap;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .classification__text {
