@@ -2239,6 +2239,170 @@ input:checked + .products-aside-filter__slider:before {
     transform: rotate(45deg);
 }
 
+/* PRODUCENT DASHBOARD-------------------------------------------------*/
+
+.dashboard-page {
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.dashboard-page__heading {
+    margin-top: 2.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.dashboard-page__underline {
+    background-color: var(--color-secondary);
+    height: 4px;
+    width: 4.3rem;
+    margin-bottom: 3rem;
+}
+
+.dashboard-page__grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "welcome welcome welcome order"
+    "numbers numbers numbers order";
+}
+
+
+.dashboard-page-grid-container__welcome {
+    padding: 1.5rem;
+    grid-area: welcome;
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-border);
+}
+
+.dashboard-page-grid-container-welcome__heading{
+    color: var(--color-third);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard-page-grid-container-welcome__caption {
+    color: var(--color-secondary);
+    line-height: 1.8;
+}
+
+.dashboard-page-grid-container__numbers {
+    padding: 1.5rem;
+    grid-area: numbers;
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-border);
+}
+
+.dashboard-page-grid-container-numbers__heading {
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+}
+
+.dashboard-page-grid-container-numbers__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5rem 0 5rem;
+}
+
+.numbers-container__single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers-container-single__number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.dashboard-green {
+    color: #2ECE78;
+}
+
+.dashboard-red {
+    color: #FA766C;
+}
+
+.dashboard-orange {
+    color: #F39E17;
+}
+
+.numbers-container-single__text {
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.numbers-container__seperator {
+    width: 1px;
+    background-color: var(--color-border);
+    height: 5rem;
+}
+
+.dashboard-page-grid-container__orders {
+    padding: 1.5rem;
+    grid-area: order;
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-border);
+}
+
+.dashboard-page-grid-container-orders__heading{
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-page-grid-container-orders__order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--color-border);
+    padding: 0.9rem 0;
+    color: var(--color-secondary);
+}
+
+.dashboard-page-grid-container-orders__order:hover {
+    color: var(--color-third);
+    font-weight: 500;
+}
+
+/* PRODUCENT PROFIL */
+
+.manufacturer-page__heading {
+    color: var(--color-secondary);
+    margin-bottom: 0.3rem;
+}
+
+.manufacturer-page__underline {
+    height: 4px;
+    width: 4.2rem;
+    background-color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.manufacturer-page__edit-profile {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.manufacturer-page-edit-profile__btn {
+    background-color: #AEC8DD;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding: 1.2em 1.1em;
+}
+
+
 /* PP - VARER --------------------------------------- */
 
 .pp-wrapper {
