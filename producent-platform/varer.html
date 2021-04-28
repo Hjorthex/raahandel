@@ -25,25 +25,25 @@
         <nav class="manufacturer-aside__navigation">
             <ul class="manufacturer-aside-navigation__list">
                 <li class="manufacturer-aside-navigation-list__link">
-                    <a class="manufacturer-aside-navigation-list__button" href="">
+                    <a class="manufacturer-aside-navigation-list__button" href="../producent-platform/dashboard.html">
                         <img class="manufacturer-aside-navigation-list__icon" src="../images/icons/nav-black/Dashboard.svg" alt="">
                         <p class="manufacturer-aside-navigation-list__text ">DASHBOARD</p>
                     </a>
                 </li>
                 <li class="manufacturer-aside-navigation-list__link manufacturer-current-link">
-                    <a class="manufacturer-aside-navigation-list__button" href="">
+                    <a class="manufacturer-aside-navigation-list__button" href="../producent-platform/varer.html">
                         <img class="manufacturer-aside-navigation-list__icon manufacturer-nav__custom-icon" src="../images/icons/nav-blue/Group 531@2x.png" alt="">
                         <p class="manufacturer-aside-navigation-list__text manufacturer-current-text">VARER</p>
                     </a>
                 </li>
                 <li class="manufacturer-aside-navigation-list__link">
-                    <a class="manufacturer-aside-navigation-list__button" href="">
+                    <a class="manufacturer-aside-navigation-list__button" href="../producent-platform/ordrer.html">
                         <img class="manufacturer-aside-navigation-list__icon manufacturer-nav__custom-icon" src="../images/icons/nav-black/ordersBlue_aml38w (1).svg" alt="">
                         <p class="manufacturer-aside-navigation-list__text">ORDRER</p>
                     </a>
                 </li>
                 <li class="manufacturer-aside-navigation-list__link">
-                    <a class="manufacturer-aside-navigation-list__button" href="">
+                    <a class="manufacturer-aside-navigation-list__button" href="../producent-platform/profil.html">
                         <img class="manufacturer-aside-navigation-list__icon" src="../images/icons/nav-black/Profil.svg" alt="">
                         <p class="manufacturer-aside-navigation-list__text">PROFIL</p>
                     </a>
@@ -55,26 +55,27 @@
         <section class="pp-products">
             <div class="pp-products__overview">
                 <div class="pp-products__overview-products">
-                    <h2 class="pp-products__overview-products-caption">Varer</h2>
+                    <h2 class="pp-products__caption">Varer</h2>
                     <div class="pp-products__overview-caption-underline"></div>
                     <div class="pp-products__overview-icon-container">
-                        <div class="pp-products__overview-icon">
-                            <img src="" alt="">
-                            <p class="pp-products__overview-icon">Opret varer</p>
-                        </div>
-                        <div class="pp-products__overview-icon">
-                            <img src="" alt="">
-                            <p class="pp-products__overview-icon">Opret kampagne</p>
-                        </div>
+                        <a href="../producent-platform/varer/opret-vare.html" class="pp-products__overview-icon">
+                            <img class="pp-products__overview-icon-img pp-products__overview-icon-img--resize" src="../images/icons/Opret vare.svg" alt="">
+                            <p class="pp-products__overview-text">Opret varer</p>
+                        </a>
+                        <a href="../producent-platform/varer/opret-kampagne.html" class="pp-products__overview-icon">
+                            <img class="pp-products__overview-icon-img" src="../images/icons/Rediger vare.svg" alt="">
+                            <p class="pp-products__overview-text">Opret kampagne</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="pp-products__notes-and-campaign-container">
                 <div class="pp-products__notes-container">
-                    <h2 class="pp-products__notes-caption">Kladder</h2>
+                    <h2 class="pp-products__caption">Kladder</h2>
                     <div class="pp-products__overview-caption-underline"></div>
-                        <div class="pp-products__notes-content-container">
-                            <img src="" alt="Exclamation mark">
+                    <div class="pp-products__notes-content-wrapper">    
+                        <a href="../producent-platform/varer/vareoprettelse/trin-2.html" class="pp-products__notes-content-container">
+                            <img class="notes-content__exclamation-mark" src="../images/icons/exclamation-mark.png" alt="Exclamation mark">
                             <div class="notes-content__producent-info">
                                 <p class="notees-content__producent-name">Producenten</p>
                                 <p class="notees-content__producent-text">Test af kladde</p>
@@ -83,12 +84,109 @@
                             <p class="notes-content__status">Mangler færdiggørelse</p>
                             <p class="notes-content__status-of">2/5</p>
                             <div class="notes-content__remove-container">
-                                <div class="notes-content__"></div>
+                                <div class="notes-content__remove-icon"></div>
                             </div>
+                        </a>
+                        <a href="../producent-platform/varer/vareoprettelse/trin-4.html" class="pp-products__notes-content-container">
+                            <img src="../images/icons/exclamation-mark.png" alt="Exclamation mark">
+                            <div class="notes-content__producent-info">
+                                <p class="notees-content__producent-name">Producenten</p>
+                                <p class="notees-content__producent-text">Test af kladde</p>
+                                <p class="notees-content__producent-type">Kladde</p>
+                            </div>
+                            <p class="notes-content__status">Mangler færdiggørelse</p>
+                            <p class="notes-content__status-of notes-content__status-of--green">4/5</p>
+                            <div class="notes-content__remove-container">
+                                <div class="notes-content__remove-icon"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pp-products__seperator"></div>
+                <div class="pp-products__notes-container">
+                    <h2 class="pp-products__caption">Kladder</h2>
+                    <div class="pp-products__overview-caption-underline"></div>
+                    <div class="pp-products__notes-content-wrapper">    
+                        <div class="pp-products__campaign-content-container">
+                            <div class="notes-content__producent-info">
+                                <p class="notees-content__producent-name">Vare navn</p>
+                                <p class="notees-content__producent-text">Navn på campagne</p>
+                                <p class="notees-content__producent-type">Kampagne</p>
+                            </div>
+                            <p class="campaign-content__status">Aktiv</p>
+                        </div>
+                        <div class="pp-products__campaign-content-container">
+                            <div class="notes-content__producent-info">
+                                <p class="notees-content__producent-name">Producenten</p>
+                                <p class="notees-content__producent-text">Test af kladde</p>
+                                <p class="notees-content__producent-type">Kladde</p>
+                            </div>
+                            <p class="campaign-content__status campaign-content__status--yellow">Kladde</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="pp-my-products">
+            <div class="pp-products__overview-products">
+                <input class="pp-products-items__search" type="searchfield" placeholder="Søg">
+                <div class="pp-products-items__search-icon"></div>
+                <div class="pp-my-products__nav">
+                    <ul>
+                        <li class="pp-my-products__nav--target"><a class="pp-my-products__nav-link pp-my-products__nav-link--target" href="">Alle</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Afventer</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Til salg</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Udsolgt</a></li>
+                        <li><a class="pp-my-products__nav-link" href="">Skjult</a></li>
+                    </ul>
+                </div>
+                <div class="pp-my-products__nav-page-container">
+                    <div class="pp-my-products__nav-page-arrow-left"></div>
+                    <p class="pp-my-products__nav-page pp-my-products__nav-page--current">1</p>
+                    <p class="pp-my-products__nav-page">2</p>
+                    <div class="pp-my-products__nav-page-arrow-right"></div>
+                </div>
+                <div class="pp-my-products__selection">
+                    <div class="pp-my-products__selection-top-bar">
+                        <div class="pp-my-products__selection-check"></div>
+                        <p class="pp-my-products__selection-customer">Kunde</p>
+                        <p class="pp-my-products__selection-kolli-size">Kolli størrelse</p>
+                        <p class="pp-my-products__selection-price">Pris</p>
+                        <p class="pp-my-products__selection-stock">Beholdning</p>
+                        <p class="pp-my-products__selection-status">Status</p>
+                        <p class="pp-my-products__selection-action">Handling</p>
+                    </div>
+                    <div class="pp-my-products__selection-container">
+                        <div class="pp-my-products__selection-check pp-my-products__selection-check--short"></div>
+                        <img class="pp-my-products__selection-image" src="../images/manufacturers-img/michaels mølle.png" alt="Michaels Mølle">
+                        <div class="pp-my-products__selection-producent-info">
+                            <p class="selection-producent-name">Producenten</p>
+                            <p class="selection-producent-text">Varer navn</p>
+                            <p class="selection-producent-type">Kategorier</p>
+                        </div>
+                        <p class="pp-my-products__product-kolli-size pp-my-products__product-kolli-size--longer">2 x 7l</p>
+                        <p class="pp-my-products__product-price">120,00kr.</p>
+                        <p class="pp-my-products__product-stock">I alt 10</p>
+                        <p class="pp-my-products__product-status">Til salg</p>
+                        <div class="pp-my-products__product-no-display"></div>
+                    </div>
+                    <div class="pp-my-products__selection-container">
+                        <div class="pp-my-products__selection-check pp-my-products__selection-check--short"></div>
+                        <img class="pp-my-products__selection-image" src="../images/manufacturers-img/michaels mølle.png" alt="Michaels Mølle">
+                        <div class="pp-my-products__selection-producent-info">
+                            <p class="selection-producent-name">Producenten</p>
+                            <p class="selection-producent-text">Varer navn</p>
+                            <p class="selection-producent-type">Kategorier</p>
+                        </div>
+                        <p class="pp-my-products__product-kolli-size pp-my-products__product-kolli-size--longer">2 x 7l</p>
+                        <p class="pp-my-products__product-price">120,00kr.</p>
+                        <p class="pp-my-products__product-stock">I alt 10</p>
+                        <p class="pp-my-products__product-status">Til salg</p>
+                        <div class="pp-my-products__product-display"></div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </div>
 </body>
