@@ -3047,3 +3047,150 @@ input:checked + .products-aside-filter__slider:before {
 .pp-packing__printer-icon {
     margin-left: 0.5rem;
 }
+
+/* PP Kampagneoplysninger --------------------------------------- */
+
+.pp-campaign-create__vertical-divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-campaign-create__pp-input-container {
+    width: 60%;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
+
+.pp-campaign-create__pp-visual-container {
+    width: 40%;
+}
+
+.pp-input__caption {
+
+}
+
+.pp-input__underline {
+    width: 5rem;
+    height: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-secondary);
+}
+
+.pp-input__subcaption {
+    font-size: 1rem;
+}
+
+.pp-input__title-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pp-input__choose-product {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+
+.pp-input__text {
+    font-size: 0.8rem;
+}
+
+.pp-input__text--bold {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pp-input__price-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+
+.pp-input__description-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 8rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0 1rem;
+    align-items: center;
+    resize: none;
+}
+
+.pp-input__btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+.pp-input__btn-direct {
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color-third);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.pp-input__btn-direct--yellow {
+    background-color: orange;
+}
+
+.pp-input__subcaption--top {
+    margin-top: 4rem;
+}
+
+.pp-input__campaign-image {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--color-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-input__campaign-image-selector {
+    width: 8rem;
+    height: 3rem;
+    background-color: #bdbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 1rem;
+    outline: 0.1rem solid var(--color-secondary);
+    cursor: pointer;
+}
