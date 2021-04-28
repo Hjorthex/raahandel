@@ -7,7 +7,7 @@
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">    
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="shortcut icon" href="../../images/icons/favicon.png" type="image/x-icon">
-    <title>Råhandel | Profil</title>
+    <title>Råhandel | Rediger profil</title>
 </head>
 <body>
     <div class="manufacturer__profile-container">
@@ -41,10 +41,10 @@
                         <p class="manufacturer-aside-navigation-list__text">ORDRER</p>
                     </a>
                 </li>
-                <li class="manufacturer-aside-navigation-list__link manufacturer-current-link">
+                <li class="manufacturer-aside-navigation-list__link">
                     <a class="manufacturer-aside-navigation-list__button" href="../profil.html">
-                        <img class="manufacturer-aside-navigation-list__icon" src="../../images/icons/nav-blue/Profil.svg" alt="">
-                        <p class="manufacturer-aside-navigation-list__text manufacturer-current-text">PROFIL</p>
+                        <img class="manufacturer-aside-navigation-list__icon" src="../../images/icons/nav-black/Profil.svg" alt="">
+                        <p class="manufacturer-aside-navigation-list__text">PROFIL</p>
                     </a>
                 </li>
             </ul>
@@ -64,17 +64,71 @@
             <div class="manufacturer-edit-profile__container">
                 <div class="manufacturer-edit-profile-container__information">
                     <div class="container-information__name">
-                        <p>Dit navn*</p>
-                        <input type="name">
+                        <p class="input-top__caption">Dit navn*</p>
+                        <input class="edit-profile__input" placeholder="Michael Mathiesen" type="name">
+                        <p class="input-bottom__caption">*Du skal skrive dit rigtige navn her.</p>
+                    </div>
+                    <div class="container-information__name">
+                        <p class="input-top__caption">Producent navn*</p>
+                        <input class="edit-profile__input" placeholder="Michaels Mølle" type="name">
+                        <p class="input-bottom__caption">*Du skal skrive dit rigtige navn her.</p>
+                    </div>
+                    <div class="container-information__name">
+                        <p class="input-top__caption">Beskrivelse*</p>
+                        <textarea class="edit-profile__textarea" name="" id="" cols="30" rows="10">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem 
+Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. Sætningen blev gjordt kendt i 1960’erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, og senere med 
+layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.</textarea>
+                        <p class="input-bottom__caption">*Du skal skrive dit rigtige navn her.</p>
+                    </div>
+                    <div class="container-information__name">
+                        <p class="input-top__caption">Vælg kategori*</p>
+                        <div class="container-information__category-dropdown">
+                            <p class="container-information-category-dropdown__caption">Vælg kategorier her</p>
+                            <p class="container-information-category-dropdown__v">v</p>
+                        </div>
+                        <div></div>
+                        <p class="input-bottom__caption">*Du skal skrive dit rigtige navn her.</p>
+                    </div>
+                    <div class="container-information__name">
+                        <p class="input-top__caption">Din adresse*</p>
+                        <input class="edit-profile__input" placeholder="Hvemvedvej 11, 4336 Anerikby" type="name">
+                        <p class="input-bottom__caption">*Du skal skrive dit rigtige navn her.</p>
+                    </div>
+                    <div class="edit-profile__documents">
+                        <div class="edit-profile-documents__cvr">
+                            <p class="edit-profile-documents-cvr__caption">CVR API</p>
+                            <div class="edit-profile-documents-cvr__box"><p>Tilføj <br> CVR API</p></div>
+                        </div>
+                        <div class="edit-profile-documents__control">
+                            <p class="edit-profile-documents-control__caption">Kontrolrapport</p>
+                            <div class="edit-profile-documents-control__box"><p>Upload <br> kontrolrapport</p></div>
+                        </div>
                     </div>
                 </div>
-                <div class="manufacturer-edit-profile-container__pictures"></div>
+                <div class="manufacturer-edit-profile-container__pictures">
+                    <p class="manufacturer-edit-profile-container-pictures__heading">Vælg profilbillede</p>
+                    <div class="manufacturer-edit-profile-container-pictures__main-img">
+                        <img class="manufacturer-edit-profile-container-pictures-main-img__img" src="../../images/products-img/Skærmbillede 2021-04-22 kl. 13.54.25.png" alt="">
+                        <p  class="manufacturer-edit-profile-container-pictures-main-img__caption">Du kan her vælge et billede der repræsenterer dig som producent</p>
+                        <a class="manufacturer-edit-profile-container-pictures-main-img__btn" href="">Vælg billede</a>
+                    </div>
+                    <div class="manufacturer-edit-profile-container-pictures__second-img">
+                        <img class="manufacturer-edit-profile-container-pictures-second-img__img" src="../../images/manufacturers-img/mølle.png" alt="">
+                    </div>
+                    <div class="manufacturer-edit-profile-container-pictures__third-img">
+                        <img class="manufacturer-edit-profile-container-pictures-third-img__img" src="../../images/manufacturers-img/mark.png" alt="">
+                    </div>
+                    <div class="manufacturer-edit-profile-container-pictures__fourth-img">
+                        <img class="manufacturer-edit-profile-container-pictures-fourth-img__img" src="../../images/manufacturers-img/farm.png" alt="">
+                    </div>
+                    <a class="manufacturer-edit-profile-container-pictures__btn" href="">Vælg flere her</a>
+                    <p class="manufacturer-edit-profile-container-pictures__caption">Du kan her vælge stemningsbillede for dig som producent</p>
+                </div>
             </div>
-
-
+            <a class="manufacturer-edit-profile__cancel-btn" href="../profil.html">< ANNULLER REDIGERING </a>
+            <a class="manufacturer-edit-profile__save-btn" href="../profil.html">GEM PROFIL ></a>
 
         </section>
-        
     </div>
 
 
