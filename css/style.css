@@ -1154,7 +1154,17 @@ input:checked + .products-aside-filter__slider:before {
 }
 
 .products-campaigns__caption {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.products-campaigns__caption--blue {
+    color: var(--color-third);
+}
+
+.products-campaigns__caption--largetext {
     font-size: 2rem;
+    margin-top: -2rem;
 }
 
 .products-campaigns__underline {
@@ -1164,6 +1174,12 @@ input:checked + .products-aside-filter__slider:before {
     height: 0.2rem;
     background-color: var(--color-secondary);
 }
+
+.products-campaigns__underline--blue {
+    background-color: var(--color-third);
+}
+
+
 
 .carousel-container {
     display: flex;
@@ -1375,7 +1391,7 @@ input:checked + .products-aside-filter__slider:before {
 }
 
 .products-items__caption {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .products-items__underline {
@@ -1401,7 +1417,7 @@ input:checked + .products-aside-filter__slider:before {
 .products-items__search-icon {
     position: absolute;
     left: 9.7rem;
-    top: 7.2rem;
+    top: 6.7rem;
     height: 2rem;
     width: 2rem;
     cursor: pointer;
@@ -1454,7 +1470,7 @@ input:checked + .products-aside-filter__slider:before {
 }
 
 .products-other-items__caption {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -2886,4 +2902,148 @@ input:checked + .products-aside-filter__slider:before {
     border-width: 0.1rem;
     border-radius: 50%;
     border-color: green;
+}
+
+/* PP ORDRER ------------------------------------------- */
+
+.pp-order__search {
+    width: 30rem;
+    height: 3rem;
+    padding-left: 3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    background-color: var(--color-white);
+    border-style: solid;
+    border-color: var(--color-border);
+}
+
+.pp-order__search-icon {
+    position: absolute;
+    top: 19.6rem;
+    left: 10.5rem;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.pp-order__search-icon:before {
+    content: '';
+    position: absolute;
+    width:1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--color-border);
+    border-width: 0.2rem;
+}
+
+.pp-order__search-icon:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0.4rem;
+    transform: rotate(-45deg);
+    width: 0.2rem;
+    height: 1rem;
+    background-color: var(--color-border);
+}
+
+.pp-order__order-selection {
+    width: 8rem;
+    margin-right: 6rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.pp-order__selection-top-bar, .pp-my-order__selection-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.pp-my-order__selection-container {
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-order__order-selection--blue {
+    color: var(--color-third);
+    font-weight: bold;
+}
+
+.pp-order__order-selection--bold {
+    font-weight: bold;
+}
+
+/* PP Pakkeliste ------------------------------- */
+
+.pp-packing__container {
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 2rem;
+}
+
+.pp-packing__caption {
+    color: var(--color-third);
+    margin-bottom: 2rem;
+}
+
+.pp-packing__subcaption {
+    color: var(--color-third);
+    margin-top: 1rem;
+}
+
+.pp-packing__text {
+    font-weight: bold;
+}
+
+.pp-packing__breaker {
+    width: 100%;
+    height: 0.2rem;
+    background-color: var(--color-border);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pp-packing__order-container {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pp-packing__order-text--bold {
+    font-weight: bold;
+}
+
+.pp-packing__order-text--margin {
+    margin-bottom: 2.2rem;
+}
+
+.pp-packing__order-text {
+    margin-top: 0.5rem;
+}
+
+.pp-packing__order-text--gray {
+    color: var(--color-border);
+}
+
+.pp-packing__print-btn {
+    width: 10rem;
+    height: 3.5rem;
+    background-color: var(--color-third);
+    color: var(--color-white);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pp-packing__printer-icon {
+    margin-left: 0.5rem;
 }
