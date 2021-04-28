@@ -80,12 +80,18 @@ body {
 
 .poke-container {
     position: fixed;
-    top: 2rem;
+    top: 5rem;
     width: 100vw;
     z-index: 130;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: slidedown 2s ease-in;
+}
+
+@keyframes slidedown {
+    from {top: -15rem}
+    to {top: 5rem;}
 }
 
 .poke-function {
