@@ -13,6 +13,14 @@ jQuery(document).mouseup(function(e) {
   }
 });
 
+jQuery(document).mouseup(function(e) {
+  var container = jQuery('.poke-function');
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+      jQuery('.poke-container').fadeOut(20);
+  }
+});
+
 
 $("#deliveryday").click(function(){
     $(".delivery-container").toggleClass("show-delivery");
