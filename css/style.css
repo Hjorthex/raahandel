@@ -3932,3 +3932,77 @@ input:checked + .products-aside-filter__slider:before {
 .pp-input__btn-container-top {
     margin-top: 2rem;
 }
+
+/* PP Opret vare 3 / 5 -----------------------------*/
+
+.pp-create-item__text--wrapped {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 32rem;
+}
+
+.pp-item-deal {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 32rem;
+    padding: 1rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-item-deal-columns {
+    width: 6rem;
+}
+
+.pp-item-deal-text {
+    color: var(--color-border);
+}
+
+.pp-item-deal-text--blue {
+    color: var(--color-third);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.pp-create-item__subcaption--top {
+    margin-top: 2rem;
+}
+
+.pp-create-item__text--short-wrapped {
+    width: 16rem;
+}
+
+.pp-item-amount__acceptance {
+    width: 32rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pp-item-amount__acceptance-check {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+    cursor: pointer;
+}
+
+.pp-item-amount__acceptance-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+}
+
+.pp-input-widebar-shorter {
+    width: 27rem;
+}
+
+.pp-input-text--wider {
+    width: 5rem;
+}
