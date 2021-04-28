@@ -3521,3 +3521,489 @@ input:checked + .products-aside-filter__slider:before {
 .pp-packing__printer-icon {
     margin-left: 0.5rem;
 }
+
+/* PP Kampagneoplysninger --------------------------------------- */
+
+.pp-campaign-create__vertical-divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-campaign-create__pp-input-container {
+    width: 60%;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
+
+.pp-campaign-create__pp-visual-container {
+    width: 40%;
+}
+
+.pp-input__underline {
+    width: 5rem;
+    height: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-secondary);
+}
+
+.pp-input__subcaption {
+    font-size: 1rem;
+}
+
+.pp-input__title-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pp-input__choose-product {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+
+.pp-input__text {
+    font-size: 0.8rem;
+}
+
+.pp-input__text--bold {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pp-input__price-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 1.5rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+
+.pp-input__description-input {
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    background-color: var(--color-white);
+    height: 8rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0 1rem;
+    align-items: center;
+    resize: none;
+}
+
+.pp-input__btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+.pp-input__btn-direct {
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color-third);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.pp-input__btn-direct--yellow {
+    background-color: orange;
+}
+
+.pp-input__subcaption--top {
+    margin-top: 4rem;
+}
+
+.pp-input__campaign-image {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--color-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-input__campaign-image-selector {
+    width: 8rem;
+    height: 3rem;
+    background-color: #bdbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 1rem;
+    outline: 0.1rem solid var(--color-secondary);
+    cursor: pointer;
+}
+
+/* PP Opret vare 1/5 --------------------------------------------*/
+
+.pp-create-item {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pp-create-item__caption {
+    color: var(--color-secondary);
+}
+
+.pp-create-item__underline {
+    width: 5rem;
+    height: 0.2rem;
+    background-color: var(--color-secondary);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pp-create-item__vertical-divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-create-item__left-container {
+    width: 80%;
+}
+
+.pp-create-item__subcaption {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pp-create-item__product-label {
+    width: 40rem;
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.pp-create-item__text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    color: var(--color-secondary);
+}
+
+.pp-create-item__classification {
+    display: flex;
+    flex-direction: row;
+}
+
+.classification__label {
+    width: 6rem;
+    height: 8rem;
+    outline: 0.1rem solid var(--color-third);
+    text-align: center;
+    justify-content: center;
+    padding-top: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.classification__text {
+    color: var(--color-third);
+}
+
+.classification__label {
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    background-position: 50% 20%;
+}
+
+.classification__label--eco {
+    background-image: url(../images/icons/organic_oua6f1.svg);
+}
+
+.classification__label--cool {
+    background-image: url(../images/icons/cold_bdv334.svg);
+}
+
+.classification__label--freeze {
+    background-image: url(../images/icons/frozen_irz2za.svg);
+}
+
+.pp-create-item__categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.classification__label--fruit {
+    background-image: url(../images/icons/frugt-og-groent.svg);
+}
+
+.classification__label--meat {
+    background-image: url(../images/icons/koed.svg);
+}
+
+.classification__label--drinks {
+    background-image: url(../images/icons/drikkevarer.svg);
+}
+
+.classification__label--eggs {
+    background-image: url(../images/icons/aeg-og-majeri.svg);
+}
+
+.classification__label--bread {
+    background-image: url(../images/icons/broed.svg);
+}
+
+.classification__label--others {
+    background-image: url(../images/icons/diverse.svg);
+}
+
+.classification__label--deposit-a {
+    background-image: url(../images/icons/deposit.png);
+}
+
+.pp-create-item__btn-next {
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color-third);
+    color: var(--color-white);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.pp-create-item__right-container {
+    width: 30%;
+}
+
+.pp-create-item__preview {
+    margin-top: 2rem;
+    height: 25rem;
+    width: 100%;
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-create-item__preview-image {
+    height: 15rem;
+    background-color: var(--color-border);
+}
+
+.pp-create-item__preview-info {
+    height: 10rem;
+    background-color: var(--color-white);
+    padding: 0.5rem;
+}
+
+.pp-create-item__preview-caption {
+    color: var(--color-secondary);
+    font-weight: bold;
+}
+
+.pp-create-item__preview-caption--blue {
+    color: var(--color-third);
+    font-weight: bold;
+}
+
+.pp-create-item__preview-caption--gray {
+    color: var(--color-border);
+}
+
+.pp-create-item__preview-caption--top {
+    margin-top: 2rem;
+}
+
+/* PP Vareflow 2/5 ------------------------------------------- */
+
+.pp-item-amount {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.pp-item-amount__vertical-divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-create-item__left-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.pp-item-amount__split-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-item-amount__split-bar-left, .pp-item-amount__split-bar-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.pp-item-amount__split-bar-left {
+    margin-right: 2rem;
+}
+
+.pp-item-amount__split-input {
+    width: 15rem;
+    border-style: none;
+    height: 1.5rem;
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-item-amount__split-bar-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.5rem 0 0.5rem;
+    width: 15rem;
+    height: 1.5rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+    align-items: center;
+    cursor: pointer;
+}
+
+.pp-item-amount__split-bar-choose--bold {
+    font-weight: bold;
+}
+
+.pp-input-widebar {
+    width: 29rem;
+    height: 1.5rem;
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    padding-left: 0.5rem;
+}
+
+.pp-input-widebar-extrawide {
+    width: 32rem;
+}
+
+.pp-input-separator__unit {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-input-text {
+    width: 3rem;
+    height: 1.5rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-create-item__preview-icon-eco {
+    width: 2rem;
+    margin-bottom: -2rem;
+}
+
+.pp-input__btn-container-top {
+    margin-top: 2rem;
+}
+
+/* PP Opret vare 3 / 5 -----------------------------*/
+
+.pp-create-item__text--wrapped {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 32rem;
+}
+
+.pp-item-deal {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 32rem;
+    padding: 1rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-item-deal-columns {
+    width: 6rem;
+}
+
+.pp-item-deal-text {
+    color: var(--color-border);
+}
+
+.pp-item-deal-text--blue {
+    color: var(--color-third);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.pp-create-item__subcaption--top {
+    margin-top: 2rem;
+}
+
+.pp-create-item__text--short-wrapped {
+    width: 16rem;
+}
+
+.pp-item-amount__acceptance {
+    width: 32rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pp-item-amount__acceptance-check {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--color-white);
+    outline: 0.1rem solid var(--color-border);
+    cursor: pointer;
+}
+
+.pp-item-amount__acceptance-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+}
+
+.pp-input-widebar-shorter {
+    width: 27rem;
+}
+
+.pp-input-text--wider {
+    width: 5rem;
+}
