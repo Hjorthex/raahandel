@@ -3065,10 +3065,6 @@ input:checked + .products-aside-filter__slider:before {
     width: 40%;
 }
 
-.pp-input__caption {
-
-}
-
 .pp-input__underline {
     width: 5rem;
     height: 0.2rem;
@@ -3193,4 +3189,179 @@ input:checked + .products-aside-filter__slider:before {
     margin-top: 1rem;
     outline: 0.1rem solid var(--color-secondary);
     cursor: pointer;
+}
+
+/* PP Opret vare 1/5 --------------------------------------------*/
+
+.pp-create-item {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pp-create-item__caption {
+    color: var(--color-secondary);
+}
+
+.pp-create-item__underline {
+    width: 5rem;
+    height: 0.2rem;
+    background-color: var(--color-secondary);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pp-create-item__vertical-divider {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-create-item__left-container {
+    width: 80%;
+}
+
+.pp-create-item__subcaption {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pp-create-item__product-label {
+    width: 40rem;
+    border-style: none;
+    outline: 0.1rem solid var(--color-border);
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.pp-create-item__text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    color: var(--color-secondary);
+}
+
+.pp-create-item__classification {
+    display: flex;
+    flex-direction: row;
+}
+
+.classification__label {
+    width: 6rem;
+    height: 8rem;
+    outline: 0.1rem solid var(--color-third);
+    text-align: center;
+    justify-content: center;
+    padding-top: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
+.classification__text {
+    color: var(--color-third);
+}
+
+.classification__label {
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    background-position: 50% 20%;
+}
+
+.classification__label--eco {
+    background-image: url(../images/icons/organic_oua6f1.svg);
+}
+
+.classification__label--cool {
+    background-image: url(../images/icons/cold_bdv334.svg);
+}
+
+.classification__label--freeze {
+    background-image: url(../images/icons/frozen_irz2za.svg);
+}
+
+.pp-create-item__categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.classification__label--fruit {
+    background-image: url(../images/icons/frugt-og-groent.svg);
+}
+
+.classification__label--meat {
+    background-image: url(../images/icons/koed.svg);
+}
+
+.classification__label--drinks {
+    background-image: url(../images/icons/drikkevarer.svg);
+}
+
+.classification__label--eggs {
+    background-image: url(../images/icons/aeg-og-majeri.svg);
+}
+
+.classification__label--bread {
+    background-image: url(../images/icons/broed.svg);
+}
+
+.classification__label--others {
+    background-image: url(../images/icons/diverse.svg);
+}
+
+.classification__label--deposit-a {
+    background-image: url(../images/icons/deposit.png);
+}
+
+.pp-create-item__btn-next {
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color-third);
+    color: var(--color-white);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.pp-create-item__right-container {
+    width: 30%;
+}
+
+.pp-create-item__preview {
+    margin-top: 2rem;
+    height: 25rem;
+    width: 100%;
+    outline: 0.1rem solid var(--color-border);
+}
+
+.pp-create-item__preview-image {
+    height: 15rem;
+    background-color: var(--color-border);
+}
+
+.pp-create-item__preview-info {
+    height: 10rem;
+    background-color: var(--color-white);
+    padding: 0.5rem;
+}
+
+.pp-create-item__preview-caption {
+    color: var(--color-secondary);
+    font-weight: bold;
+}
+
+.pp-create-item__preview-caption--blue {
+    color: var(--color-third);
+    font-weight: bold;
+}
+
+.pp-create-item__preview-caption--gray {
+    color: var(--color-border);
+}
+
+.pp-create-item__preview-caption--top {
+    margin-top: 2rem;
 }
